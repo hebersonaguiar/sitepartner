@@ -5,7 +5,7 @@ var watch = require('gulp-watch');
 //task for sass
 gulp.task('sass', function(){
 	return sass('sass/**/*.sass')
-	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logErr))
+	//.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 	.pipe(gulp.dest('css'));
 });
 
