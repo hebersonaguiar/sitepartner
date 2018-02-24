@@ -4,8 +4,17 @@
 /* ========== Outros */
 /* ========== Background Color Opacity */
 /* ========== Columns */
+header:before, header:after {
+  content: " ";
+  display: table; }
+header:after {
+  clear: both; }
 header .social {
   float: left; }
+header .logo {
+  margin: auto;
+  width: 50%;
+  padding: 10px; }
 header nav ul li {
   diplay: inline-block; }
   header nav ul li a {
