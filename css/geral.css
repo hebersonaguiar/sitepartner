@@ -4,3 +4,12 @@
 /* ========== Outros */
 /* ========== Background Color Opacity */
 /* ========== Columns */
+header .social {
+  float: left; }
+header nav ul li {
+  diplay: inline-block; }
+  header nav ul li a {
+    color: #000;
+    text-transform: uppercase; }
+header .telefone {
+  float: right; }
