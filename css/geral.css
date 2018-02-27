@@ -70,7 +70,8 @@ header {
     clear: both; }
   header .social {
     float: left;
-    margin: 30px 0 0; }
+    margin: 50px 0 0;
+    margin-left: 100px; }
     header .social li {
       display: inline-block; }
       header .social li a {
@@ -89,7 +90,8 @@ header {
         border-radius: 120px; }
   header .telefone {
     float: right;
-    margin: 30px 0 0;
+    margin: 50px 0 0;
+    margin-right: 100px;
     clear: both; }
     header .telefone span {
       float: right;
@@ -98,15 +100,109 @@ header {
   header .clear {
     clear: both; }
   header .logo {
+    text-align: center; }
+  header .logo-align {
     clear: both;
-    position: center;
+    display: inline-block;
+    margin: 10px 0 0;
+    margin-left: 30px; }
+  @media (max-width: 991px) {
+    header nav {
+      display: none; } }
+  @media (max-width: 440px) {
+    header nav {
+      display: none; } }
+  header nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 10px 0 0; }
+    header nav ul li a {
+      color: #000;
+      text-transform: uppercase; }
+  header .logo-ortomed-nome {
+    text-align: center;
+    margin: 160px 0 0; }
+  header .logo-ortomed-align {
+    clear: both;
+    display: inline-block;
     margin: auto;
-    padding: auto; }
-  header nav {
-    padding: 10px; }
-    header nav ul li {
-      display: inline-block;
-      margin: 0 20px 0 0; }
-      header nav ul li a {
-        color: #000;
-        text-transform: uppercase; }
+    margin-right: 130px; }
+  header .logo-policlinica-nome {
+    clear: both;
+    display: inline-block;
+    margin-left: 250px;
+    margin-bottom: 10px; }
+  header .barra {
+    background-color: #ed3237;
+    background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+    background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: linear-gradient(90deg, #3e4095, #ed3237);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+    width: 20%;
+    height: 3px;
+    border: none;
+    margin: auto; }
+  header p,
+  header strong {
+    margin: 10px 0 0;
+    text-transform: uppercase;
+    color: #3e4095; }
+
+footer .social {
+  float: left;
+  margin: 80px 0 0;
+  margin-left: 100px; }
+  footer .social li {
+    display: inline-block; }
+    footer .social li a {
+      color: #3e4095;
+      float: left;
+      display: block;
+      border: 1px solid #3e4095;
+      padding: 4px;
+      width: 25px;
+      height: 25px;
+      line-height: 12px;
+      text-align: center;
+      -webkit-border-radius: 120px;
+      -moz-border-radius: 120px;
+      -ms-border-radius: 120px;
+      border-radius: 120px; }
+footer .telefone {
+  float: right;
+  margin: 80px 0 0;
+  margin-right: 100px;
+  clear: both; }
+  footer .telefone span {
+    float: right;
+    color: #3e4095;
+    font-size: 14px; }
+footer nav ul li {
+  text-align: center;
+  display: inline-block;
+  margin: 20px 10px 0 0; }
+  footer nav ul li a {
+    color: #000;
+    text-transform: uppercase; }
+footer .logo {
+  text-align: center; }
+footer .logo-align {
+  clear: both;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  margin-left: 30px;
+  margin-bottom: 10px; }
+footer .copyright,
+footer p {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: 40px; }
+  footer .copyright a,
+  footer p a {
+    color: #ed3237; }
