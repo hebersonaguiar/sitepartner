@@ -1,3 +1,4 @@
+@import ../bower_components/sass-flex-mixin/flex
 section.sec-ortomed
 	.aortomed
 		text-align: center
@@ -27,4 +28,11 @@ section.sec-ortomed
 
 
 	.especialidades
-		line-height: 30px
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		margin: 50px 0
+		text-align: center
+
+		+make-sm-column(10)
+		+make-sm-column-offset(1)
