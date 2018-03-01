@@ -150,13 +150,24 @@ section.sec-convenios
 		+flexbox
 		+align-items(center)
 		+justify-content(space-around)
-		margin-top: 40px
 		[class^="icone-"]
 			//width: 250px
 			//height: 150px
 			margin-top: 40px
 			top: 40px
 			text-align: center
+
+			&.icone-planserv
+				+order(1)
+
+			&.icone-medial
+				+order(2)
+
+			&.icone-saude-caixa
+				+order(3)
+
+			&.icone-amil
+				+order(4)
 
 		h1
 			position: absolute
