@@ -83,10 +83,9 @@ section.sec-ortomed .especialidades {
 
 .second-main {
   background-image: url("../images/fundo-rpg.jpg");
-  position: top center;
-  repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFF;
-  size: cover !important;
   min-height: 650px;
   margin-top: 60px; }
 
@@ -177,6 +176,156 @@ section.sec-rpg .saibamais {
     padding: 2px 10px;
     color: #3e4095;
     z-index: 1; }
+
+section.sec-convenios .convenios-itens {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around; }
+  section.sec-convenios .convenios-itens [class^="icone-"] {
+    margin-top: 40px;
+    top: 40px;
+    text-align: center; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-planserv {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -moz-order: 1;
+      -ms-flex-order: 1;
+      order: 1; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-medial {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -moz-order: 2;
+      -ms-flex-order: 2;
+      order: 2; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-saude-caixa {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+      -moz-order: 3;
+      -ms-flex-order: 3;
+      order: 3; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-amil {
+      -webkit-box-ordinal-group: 5;
+      -webkit-order: 4;
+      -moz-order: 4;
+      -ms-flex-order: 4;
+      order: 4; }
+  section.sec-convenios .convenios-itens h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: #3e4095;
+    margin: auto 0;
+    margin-top: -85px;
+    margin-bottom: 30px; }
+
+.fourth-main {
+  background-image: url("../images/vca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  margin-top: 40px; }
+
+section.sec-contato .funcionamento {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 32px;
+  font-size: 2rem;
+  color: #FFF;
+  width: 50%;
+  position: absolute;
+  clear: both; }
+section.sec-contato .horario {
+  margin-top: 30px; }
+  section.sec-contato .horario ul li {
+    text-align: center;
+    font-size: 32px;
+    font-size: 2rem; }
+section.sec-contato .endereco {
+  margin-top: 20px; }
+  section.sec-contato .endereco p {
+    text-align: center;
+    padding: 0; }
+section.sec-contato .contato-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  -webkit-align-items: right;
+  -moz-align-items: right;
+  align-items: right;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 30px;
+  width: 450px;
+  height: 530px;
+  background-color: #FFF; }
+  section.sec-contato .contato-box h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 400;
+    color: #3e4095; }
+  section.sec-contato .contato-box ul {
+    margin-right: 10%;
+    margin-top: 50px; }
+    section.sec-contato .contato-box ul li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: left;
+      -ms-flex-align: left;
+      -webkit-align-items: left;
+      -moz-align-items: left;
+      align-items: left;
+      -webkit-box-pack: left;
+      -ms-flex-pack: left;
+      -webkit-justify-content: left;
+      -moz-justify-content: left;
+      justify-content: left;
+      margin-top: 35px;
+      margin-right: 250px;
+      font-size: 28px;
+      font-weight: 300;
+      width: 350px;
+      border-bottom: 1px solid #ed3237;
+      color: #3e4095; }
+  section.sec-contato .contato-box .message {
+    border: 1px solid #ed3237;
+    padding: 0 0 80px 0; }
+  section.sec-contato .contato-box .bt-enviar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    -moz-align-items: left;
+    align-items: left;
+    border: 1px solid #ed3237;
+    text-align: center; }
 
 /* ========== Cores */
 /* ========== Font */
