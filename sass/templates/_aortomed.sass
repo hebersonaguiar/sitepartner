@@ -212,8 +212,16 @@ section.sec-contato
 			padding: 0
 
 	.contato-box
-		text-align: right
+		+flexbox
+		+align-items(right)
+		+justify-content(right)
+		margin-left: 70%
+		margin-top: 50px
 		h1
-			color: $white
-			position: absolute
-			clear: both
+			text-align: center
+			font-size: 30px
+			font-weight: $regular
+			border: 2px solid $blue
+			padding: 2px 10px
+			color: $blue
+			z-index: 1
