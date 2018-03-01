@@ -197,8 +197,10 @@ section.sec-contato
 		position: absolute
 		clear: both
 		span
-			width: 50%
-			clear: both
+			+flexbox
+			+align-items(center)
+			+justify-content(center)
+	
 	.contato-box
 		h1
 			color: $white
