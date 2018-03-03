@@ -230,27 +230,29 @@ section.sec-contato
 			color: $blue
 			//z-index: 1
 		input
-			.input-group-addon
-				margin-right: 10%
-				margin-top: 50px
+			margin-right: 10%
+			margin-top: 50px
+			+flexbox
+			+align-items(left)
+			+justify-content(left)	
+			//text-align: left
+			margin-top: 35px
+			margin-right: 250px
+			font-size: 28px
+			font-weight: $light
+			width: 350px
+			border-bottom: 1px solid $red
+			color: $blue
+			background-color: transparent
+			//border: 0px solid
+			outline: none
+			&:focus
+				& + .input-group-addon
+				outline: none
+				text-align: left
 				+flexbox
 				+align-items(left)
 				+justify-content(left)	
-				text-align: left
-				margin-top: 35px
-				margin-right: 250px
-				font-size: 28px
-				font-weight: $light
-				width: 350px
-				border-bottom: 1px solid $red
-				color: $blue
-				background-color: transparent
-				//border: 0px solid
-				outline: none
-				&:focus
-					& + .input-group-addon
-						outline: none
-						text-align: left
 
 
 		.message
