@@ -148,8 +148,108 @@ section.sec-ortomed .aortomed {
     width: 70%;
     margin-top: 50px;
     clear: both;
-    font-size: 22px;
+    font-size: 20px;
     display: inline-block; }
+section.sec-ortomed .cnes {
+  float: left;
+  margin-top: 25px;
+  margin-left: 100px;
+  clear: both; }
+  section.sec-ortomed .cnes span {
+    float: left;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute; }
+section.sec-ortomed .cnpj {
+  float: right;
+  margin-right: 100px;
+  clear: both; }
+  section.sec-ortomed .cnpj span {
+    float: right;
+    font-weight: 700;
+    font-size: 16px; }
+section.sec-ortomed .clear {
+  clear: both; }
+section.sec-ortomed .itc-vet {
+  text-align: center;
+  width: 50%;
+  margin: auto; }
+section.sec-ortomed .itc-vet-align {
+  clear: both;
+  display: inline-block;
+  margin: 10px 0 0;
+  margin-right: 30px; }
+
+section.sec-dep .dep-nome {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 170px; }
+  section.sec-dep .dep-nome h1 {
+    font-weight: 700;
+    line-height: 1;
+    color: #3e4095; }
+section.sec-dep .barra {
+  background-color: #ed3237;
+  background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+  background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: linear-gradient(90deg, #3e4095, #ed3237);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+  width: 25%;
+  height: 3px;
+  border: none; }
+section.sec-dep .depoimentos {
+  text-align: center; }
+  section.sec-dep .depoimentos p {
+    text-align: justify;
+    width: 70%;
+    margin-top: 50px;
+    clear: both;
+    font-size: 20px;
+    display: inline-block; }
+
+section.sec-medias {
+  background-color: #ed3237;
+  background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+  background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: linear-gradient(90deg, #3e4095, #ed3237);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+  width: 100%;
+  height: 500px; }
+  section.sec-medias .clear {
+    clear: both; }
+  section.sec-medias .iframe-face {
+    margin-top: 30px; }
+    section.sec-medias .iframe-face span {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-left: 118px; }
+    section.sec-medias .iframe-face iframe {
+      margin-top: 5px;
+      margin-left: 118px; }
+  section.sec-medias .iframe-insta {
+    margin-top: -31px;
+    float: right;
+    margin-right: 120px; }
+    section.sec-medias .iframe-insta span {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-left: 190px; }
+    section.sec-medias .iframe-insta blockquote {
+      margin-top: 5px;
+      margin-left: 190px; }
 
 footer .social {
   float: left;
