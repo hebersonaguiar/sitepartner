@@ -68,6 +68,23 @@ header {
     display: table; }
   header:after {
     clear: both; }
+  header .top-bar {
+    background-color: #FFF;
+    position: fixed;
+    z-index: 1000;
+    height: 150px;
+    width: 100%; }
+  header .boxshadow {
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    background: #FFF; }
+    header .boxshadow:after {
+      z-index: -1;
+      -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+      bottom: 0; }
   header .social {
     float: left;
     margin: 50px 0 0;
