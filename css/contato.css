@@ -153,6 +153,19 @@ header {
     height: 3px;
     border: none; }
 
+section.sec-contato .horario,
+section.sec-contato .telefone-cont,
+section.sec-contato .localizacao {
+  color: #3e4095; }
+  section.sec-contato .horario h1,
+  section.sec-contato .horario p,
+  section.sec-contato .telefone-cont h1,
+  section.sec-contato .telefone-cont p,
+  section.sec-contato .localizacao h1,
+  section.sec-contato .localizacao p {
+    font-size: 16px;
+    font-weight: regular; }
+
 section.sec-medias {
   background-color: #ed3237;
   background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
