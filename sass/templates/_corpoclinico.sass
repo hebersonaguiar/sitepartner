@@ -257,6 +257,46 @@ section.sec-corpoclinico
 			&.dr-quatro
 				+order(4)
 
+	.drs-cinco
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		[class^="dr-"]
+			color: $blue
+			margin-top: 40px
+			margin-bottom: 40px
+			padding-top: 20px
+			top: 40px
+			text-align: center
+			// border: 1px solid $black
+			background-color: #f2efee
+			font-weight: $bold
+			width: 160px
+			height: 170px
+			&:hover .middle
+				opacity: 0.3
+			.middle
+				transition: .5s ease
+				opacity: 0
+				position: absolute
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+				-ms-transform: translate(-50%, -50%)
+				text-align: center
+
+			&.dr-um
+				+order(1)
+
+			&.dr-dois
+				+order(2)
+
+			&.dr-tres
+				+order(3)
+
+			&.dr-quatro
+				+order(4)
+
 	// .drs-um
 	// 	position: relative
 
