@@ -153,18 +153,54 @@ header {
     height: 3px;
     border: none; }
 
+section.sec-contato .map {
+  width: 575px;
+  float: left; }
 section.sec-contato .horario,
-section.sec-contato .telefone-cont,
 section.sec-contato .localizacao {
-  color: #3e4095; }
+  color: #3e4095;
+  width: 575px;
+  float: left; }
   section.sec-contato .horario h1,
-  section.sec-contato .horario p,
-  section.sec-contato .telefone-cont h1,
-  section.sec-contato .telefone-cont p,
-  section.sec-contato .localizacao h1,
-  section.sec-contato .localizacao p {
-    font-size: 16px;
+  section.sec-contato .localizacao h1 {
+    font-size: 22px;
     font-weight: regular; }
+  section.sec-contato .horario span,
+  section.sec-contato .horario li,
+  section.sec-contato .localizacao span,
+  section.sec-contato .localizacao li {
+    font-size: 15px; }
+  section.sec-contato .horario p,
+  section.sec-contato .localizacao p {
+    font-size: 15px;
+    font-weight: regular; }
+section.sec-contato .telefone-cont {
+  margin-bottom: 30px;
+  color: #3e4095;
+  width: 575px;
+  float: left; }
+  section.sec-contato .telefone-cont h1 {
+    font-size: 22px;
+    font-weight: regular; }
+  section.sec-contato .telefone-cont span {
+    font-size: 15px; }
+section.sec-contato .clear {
+  clear: both; }
+section.sec-contato .form-cont {
+  float: right;
+  color: #3e4095; }
+  section.sec-contato .form-cont span {
+    font-size: 22px;
+    margin-bottom: 30px; }
+  section.sec-contato .form-cont p {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0; }
+  section.sec-contato .form-cont input {
+    border: 1px solid #a8a7;
+    width: 300px;
+    height: 35px;
+    border-radius: 4px; }
 
 section.sec-medias {
   background-color: #ed3237;
