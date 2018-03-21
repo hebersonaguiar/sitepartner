@@ -155,7 +155,8 @@ header {
 
 section.sec-contato .map {
   width: 575px;
-  float: left; }
+  float: left;
+  margin-top: 30px; }
 section.sec-contato .horario,
 section.sec-contato .localizacao {
   color: #3e4095;
@@ -188,7 +189,9 @@ section.sec-contato .clear {
   clear: both; }
 section.sec-contato .form-cont {
   float: right;
-  color: #3e4095; }
+  color: #3e4095;
+  margin-top: 15px;
+  margin-right: 100px; }
   section.sec-contato .form-cont span {
     font-size: 22px;
     margin-bottom: 30px; }
@@ -197,10 +200,14 @@ section.sec-contato .form-cont {
     margin-top: 15px;
     margin-bottom: 0; }
   section.sec-contato .form-cont input {
-    border: 1px solid #a8a7;
+    border: 1px solid #cccaca;
     width: 300px;
     height: 35px;
     border-radius: 4px; }
+  section.sec-contato .form-cont #send {
+    border: 1px solid #3e4095;
+    width: 60px;
+    background-color: #FFF; }
 
 section.sec-medias {
   background-color: #ed3237;
@@ -212,7 +219,8 @@ section.sec-medias {
   background-image: linear-gradient(90deg, #3e4095, #ed3237);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
   width: 100%;
-  height: 500px; }
+  height: 500px;
+  margin-top: 30px; }
   section.sec-medias .clear {
     clear: both; }
   section.sec-medias .iframe-face {
