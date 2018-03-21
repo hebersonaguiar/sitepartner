@@ -103,13 +103,25 @@ section.sec-corpoclinico
 		+align-items(center)
 		+justify-content(space-around)
 		[class^="dr-"]
-		// .dr-um
+			color: $blue
 			margin-top: 40px
 			top: 40px
 			text-align: center
 			border: 1px solid $black
 			width: 160px
 			height: 170px
+
+			&.dr-um
+				+order(1)
+
+			&.dr-dois
+				+order(2)
+
+			&.dr-tres
+				+order(3)
+
+			&.dr-quatro
+				+order(4)
 
 
 section.sec-medias
