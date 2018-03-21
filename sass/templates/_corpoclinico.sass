@@ -98,148 +98,146 @@ header
 
 
 section.sec-corpoclinico
-	// .drs-um
-	// 	+flexbox
-	// 	+align-items(center)
-	// 	+justify-content(space-around)
-	// 	[class^="dr-"]
-	// 		color: $blue
-	// 		margin-top: 40px
-	// 		margin-bottom: 40px
-	// 		padding-top: 20px
-	// 		top: 40px
-	// 		text-align: center
-	// 		// border: 1px solid $black
-	// 		background-color: #f2efee
-	// 		font-weight: $bold
-	// 		width: 160px
-	// 		height: 170px
-	// 		&:hover .middle
-	// 			opacity: 0.3
-	// 		.middle
-	// 			transition: .5s ease
-	// 			opacity: 0
-	// 			position: absolute
-	// 			top: 50%
-	// 			left: 50%
-	// 			transform: translate(-50%, -50%)
-	// 			-ms-transform: translate(-50%, -50%)
-	// 			text-align: center
-
-	// 		&.dr-um
-	// 			+order(1)
-	// 		&:hover .middle
-	// 			opacity: 0.3
-
-	// 		&.dr-dois
-	// 			+order(2)
-
-	// 		&.dr-tres
-	// 			+order(3)
-
-	// 		&.dr-quatro
-	// 			+order(4)
-
 	.drs-um
-		position: relative
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		[class^="dr-"]
+			color: $blue
+			margin-top: 40px
+			margin-bottom: 40px
+			padding-top: 20px
+			top: 40px
+			text-align: center
+			// border: 1px solid $black
+			background-color: #f2efee
+			font-weight: $bold
+			width: 160px
+			height: 170px
+			&:hover .middle
+				opacity: 0.3
+			.middle
+				transition: .5s ease
+				opacity: 0
+				position: absolute
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+				-ms-transform: translate(-50%, -50%)
+				text-align: center
 
-	.dr-um
-		margin-top: 40px
-		margin-bottom: 40px
-		padding-top: 20px
-		top: 40px
-		text-align: center
-		// border: 1px solid $black
-		background-color: #f2efee
-		font-weight: $bold
-		width: 160px
-		height: 170px
-		backface-visibility: hidden
-		transition: .5s ease
-		opacity: 1
+			&.dr-um
+				+order(1)
 
-	.middle
-		transition: .5s ease
-		opacity: 0
-		// position: absolute
-		// top: 50%
-		// left: 50%
-		margin-left: 80px
-		margin-top: 27px
-		transform: translate(-50%, -50%)
-		-ms-transform: translate(-50%, -50%)
-		text-align: center
+			&.dr-dois
+				+order(2)
+
+			&.dr-tres
+				+order(3)
+
+			&.dr-quatro
+				+order(4)
+
+	// .drs-um
+	// 	position: relative
+
+	// .dr-um
+	// 	margin-top: 40px
+	// 	margin-bottom: 40px
+	// 	padding-top: 20px
+	// 	top: 40px
+	// 	text-align: center
+	// 	// border: 1px solid $black
+	// 	background-color: #f2efee
+	// 	font-weight: $bold
+	// 	width: 160px
+	// 	height: 170px
+	// 	backface-visibility: hidden
+	// 	transition: .5s ease
+	// 	opacity: 1
+
+	// .middle
+	// 	transition: .5s ease
+	// 	opacity: 0
+	// 	// position: absolute
+	// 	// top: 50%
+	// 	// left: 50%
+	// 	margin-left: 80px
+	// 	margin-top: 27px
+	// 	transform: translate(-50%, -50%)
+	// 	-ms-transform: translate(-50%, -50%)
+	// 	text-align: center
 	
-	.drs-um:hover .dr-um
-		opacity: 0.3
+	// .drs-um:hover .dr-um
+	// 	opacity: 0.3
 
-	.drs-um:hover .middle 
-		opacity: 1
+	// .drs-um:hover .middle 
+	// 	opacity: 1
 
 	
-	.dr-dois
-		margin-top: 40px
-		margin-bottom: 40px
-		padding-top: 20px
-		top: 40px
-		text-align: center
-		// border: 1px solid $black
-		background-color: #f2efee
-		font-weight: $bold
-		width: 160px
-		height: 170px
-		backface-visibility: hidden
-		transition: .5s ease
-		opacity: 1
+	// .dr-dois
+	// 	margin-top: 40px
+	// 	margin-bottom: 40px
+	// 	padding-top: 20px
+	// 	top: 40px
+	// 	text-align: center
+	// 	// border: 1px solid $black
+	// 	background-color: #f2efee
+	// 	font-weight: $bold
+	// 	width: 160px
+	// 	height: 170px
+	// 	backface-visibility: hidden
+	// 	transition: .5s ease
+	// 	opacity: 1
 	
-	.drs-dois:hover .dr-dois
-		opacity: 0.3
+	// .drs-dois:hover .dr-dois
+	// 	opacity: 0.3
 
-	.drs-dois:hover .middle 
-		opacity: 1
+	// .drs-dois:hover .middle 
+	// 	opacity: 1
 
 
-	.dr-tres
-		margin-top: 40px
-		margin-bottom: 40px
-		padding-top: 20px
-		top: 40px
-		text-align: center
-		// border: 1px solid $black
-		background-color: #f2efee
-		font-weight: $bold
-		width: 160px
-		height: 170px
-		backface-visibility: hidden
-		transition: .5s ease
-		opacity: 1
+	// .dr-tres
+	// 	margin-top: 40px
+	// 	margin-bottom: 40px
+	// 	padding-top: 20px
+	// 	top: 40px
+	// 	text-align: center
+	// 	// border: 1px solid $black
+	// 	background-color: #f2efee
+	// 	font-weight: $bold
+	// 	width: 160px
+	// 	height: 170px
+	// 	backface-visibility: hidden
+	// 	transition: .5s ease
+	// 	opacity: 1
 	
-	.drs-tres:hover .dr-tres
-		opacity: 0.3
+	// .drs-tres:hover .dr-tres
+	// 	opacity: 0.3
 
-	.drs-tres:hover .middle 
-		opacity: 1
+	// .drs-tres:hover .middle 
+	// 	opacity: 1
 
-	.dr-quatro
-		margin-top: 40px
-		margin-bottom: 40px
-		padding-top: 20px
-		top: 40px
-		text-align: center
-		// border: 1px solid $black
-		background-color: #f2efee
-		font-weight: $bold
-		width: 160px
-		height: 170px
-		backface-visibility: hidden
-		transition: .5s ease
-		opacity: 1
+	// .dr-quatro
+	// 	margin-top: 40px
+	// 	margin-bottom: 40px
+	// 	padding-top: 20px
+	// 	top: 40px
+	// 	text-align: center
+	// 	// border: 1px solid $black
+	// 	background-color: #f2efee
+	// 	font-weight: $bold
+	// 	width: 160px
+	// 	height: 170px
+	// 	backface-visibility: hidden
+	// 	transition: .5s ease
+	// 	opacity: 1
 	
-	.drs-quatro:hover .dr-quatro
-		opacity: 0.3
+	// .drs-quatro:hover .dr-quatro
+	// 	opacity: 0.3
 
-	.drs-quatro:hover .middle 
-		opacity: 1
+	// .drs-quatro:hover .middle 
+	// 	opacity: 1
 
 section.sec-medias
 	+gradient(90deg, $blue, $red)
