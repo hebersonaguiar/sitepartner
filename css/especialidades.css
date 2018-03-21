@@ -153,11 +153,12 @@ header {
     height: 3px;
     border: none; }
 
-section.sec-especialidades .especialidades {
-  margin: 0 auto; }
-  section.sec-especialidades .especialidades td {
-    margin: 20px;
-    color: #3e4095; }
+section.sec-especialidades .especialidades table {
+  margin: auto; }
+section.sec-especialidades .especialidades td {
+  padding: 25px;
+  color: #3e4095;
+  font-size: 22px; }
 
 section.sec-medias {
   background-color: #ed3237;
