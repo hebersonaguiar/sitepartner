@@ -1,3 +1,4 @@
+@import ../../bower_components/sass-flex-mixin/flex
 header
 	+clearfix
 	min-height: 650px
@@ -94,6 +95,21 @@ header
 		width: 27%
 		height: 3px
 		border: none
+
+
+section.sec-corpoclinico
+	.drs-um
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		[class^="dr-"]
+			margin-top: 40px
+			top: 40px
+			text-align: center
+			border: 1px solid $black
+			width: 100px
+			height: 100px
+
 
 section.sec-medias
 	+gradient(90deg, $blue, $red)
