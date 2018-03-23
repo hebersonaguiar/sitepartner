@@ -95,6 +95,39 @@ header
 		height: 3px
 		border: none
 
+section.sec-convenios
+	.convenios-itens
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		[class^="icone-"]
+			//width: 250px
+			//height: 150px
+			margin-top: 40px
+			top: 40px
+			text-align: center
+
+			&.icone-planserv
+				+order(1)
+
+			&.icone-medial
+				+order(2)
+
+			&.icone-saude-caixa
+				+order(3)
+
+			&.icone-amil
+				+order(4)
+
+		h1
+			position: absolute
+			text-align: center
+			font-size: 30px
+			color: $blue
+			margin: auto 0
+			margin-top: -85px
+			margin-bottom: 30px
+
 section.sec-medias
 	+gradient(90deg, $blue, $red)
 	width: 100%
