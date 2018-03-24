@@ -188,13 +188,15 @@ section.sec-convenios .convenios-itens {
   align-items: center; }
   section.sec-convenios .convenios-itens [class^="icone-"] {
     margin-top: 20px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 35px; }
     section.sec-convenios .convenios-itens [class^="icone-"].icone-planserv {
       -webkit-box-ordinal-group: 2;
       -webkit-order: 1;
       -moz-order: 1;
       -ms-flex-order: 1;
-      order: 1; }
+      order: 1;
+      margin-right: 30px; }
     section.sec-convenios .convenios-itens [class^="icone-"].icone-medial {
       -webkit-box-ordinal-group: 3;
       -webkit-order: 2;
@@ -218,7 +220,8 @@ section.sec-convenios .convenios-itens {
       -webkit-order: 5;
       -moz-order: 5;
       -ms-flex-order: 5;
-      order: 5; }
+      order: 5;
+      margin-right: 30px; }
     section.sec-convenios .convenios-itens [class^="icone-"].icone-camed {
       -webkit-box-ordinal-group: 7;
       -webkit-order: 6;
@@ -242,13 +245,32 @@ section.sec-convenios .convenios-itens {
       -webkit-order: 9;
       -moz-order: 9;
       -ms-flex-order: 9;
-      order: 9; }
+      order: 9;
+      margin-right: 30px; }
     section.sec-convenios .convenios-itens [class^="icone-"].icone-assefaz {
+      -webkit-box-ordinal-group: 13;
+      -webkit-order: 12;
+      -moz-order: 12;
+      -ms-flex-order: 12;
+      order: 12; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-casseb-saude {
       -webkit-box-ordinal-group: 11;
       -webkit-order: 10;
       -moz-order: 10;
       -ms-flex-order: 10;
       order: 10; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-postal-saude {
+      -webkit-box-ordinal-group: 12;
+      -webkit-order: 11;
+      -moz-order: 11;
+      -ms-flex-order: 11;
+      order: 11; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-sul-america {
+      -webkit-box-ordinal-group: 14;
+      -webkit-order: 13;
+      -moz-order: 13;
+      -ms-flex-order: 13;
+      order: 13; }
   section.sec-convenios .convenios-itens h1 {
     position: absolute;
     text-align: center;

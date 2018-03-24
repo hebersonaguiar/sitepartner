@@ -189,7 +189,8 @@ section.sec-procedimentos {
       float: left;
       width: 210px;
       height: 150px;
-      margin-right: 90px; }
+      margin-right: 90px;
+      margin-top: 22px; }
     section.sec-procedimentos [class^="thumb-"] .text {
       color: #3e4095; }
       section.sec-procedimentos [class^="thumb-"] .text h1 {
@@ -199,6 +200,18 @@ section.sec-procedimentos {
         color: #3e4095;
         font-size: 16px;
         text-align: justify; }
+      section.sec-procedimentos [class^="thumb-"] .text h2 {
+        font-size: 14px;
+        border: 1px solid #3e4095;
+        padding-left: 9px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100px;
+        margin-left: 300px;
+        margin-top: 13px; }
+        section.sec-procedimentos [class^="thumb-"] .text h2 a, section.sec-procedimentos [class^="thumb-"] .text h2:link, section.sec-procedimentos [class^="thumb-"] .text h2:visited, section.sec-procedimentos [class^="thumb-"] .text h2:hover, section.sec-procedimentos [class^="thumb-"] .text h2:active {
+          text-decoration: none;
+          color: #3e4095; }
     section.sec-procedimentos [class^="thumb-"].thumb-um {
       -webkit-box-ordinal-group: 2;
       -webkit-order: 1;

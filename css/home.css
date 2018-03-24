@@ -88,7 +88,7 @@ section.sec-ortomed .especialidades {
     font-weight: 700; }
 
 .second-main {
-  background-image: url("../images/fundo-rpg.jpg");
+  background-image: url("../images/fundo-rpg-opac.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
@@ -232,7 +232,7 @@ section.sec-convenios .convenios-itens {
     font-size: 30px;
     color: #3e4095;
     margin: auto 0;
-    margin-top: -85px;
+    margin-top: -53px;
     margin-bottom: 30px; }
 
 .fourth-main {
@@ -343,3 +343,43 @@ section.sec-contato .contato-box {
     width: 90px;
     text-align: right;
     color: #7c7a7a; }
+
+section.sec-medias {
+  background-color: #ed3237;
+  background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+  background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: linear-gradient(90deg, #3e4095, #ed3237);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+  width: 100%;
+  height: 500px; }
+  section.sec-medias .clear {
+    clear: both; }
+  section.sec-medias .iframe-face {
+    margin-top: 30px; }
+    section.sec-medias .iframe-face span {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-left: 118px; }
+    section.sec-medias .iframe-face iframe {
+      margin-top: 5px;
+      margin-left: 118px; }
+  section.sec-medias .iframe-insta {
+    margin-top: -31px;
+    float: right;
+    margin-right: 120px; }
+    section.sec-medias .iframe-insta span {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-left: 190px; }
+    section.sec-medias .iframe-insta blockquote {
+      margin-top: 5px;
+      margin-left: 190px; }
