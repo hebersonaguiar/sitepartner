@@ -125,6 +125,9 @@ header {
       float: right;
       color: #3e4095;
       font-size: 14px; }
+      header .telefone span a, header .telefone span:link, header .telefone span:visited, header .telefone span:hover, header .telefone span:active {
+        text-decoration: none;
+        color: #3e4095; }
   header .clear {
     clear: both; }
   header .logo {
@@ -196,6 +199,9 @@ footer {
     margin-left: 250px;
     font-size: 30px;
     color: #FFF; }
+    footer .endereco a, footer .endereco:link, footer .endereco:visited, footer .endereco:hover, footer .endereco:active {
+      text-decoration: none;
+      color: #FFF; }
     footer .endereco span {
       text-align: center;
       padding: 0;
@@ -250,6 +256,9 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
+      footer .phone p a, footer .phone p:link, footer .phone p:visited, footer .phone p:hover, footer .phone p:active {
+        text-decoration: none;
+        color: #FFF; }
   footer .copyright {
     border-top: 1px solid #000;
     font-size: 13px;
