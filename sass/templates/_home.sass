@@ -195,13 +195,22 @@ section.sec-convenios
 
 section.sec-contato
 	.funcionamento
-		margin-top: 100px
+		margin-top: 245px
+		margin-left: -90px
 		text-align: center
 		+font-size(32px)
 		color: $white
 		width: 50%
 		position: absolute
 		clear: both
+		a,
+		&:link,
+		&:visited,
+		&:hover,
+		&:active
+			text-decoration: none
+			color: $white
+
 
 	.horario
 		margin-top: 30px
@@ -211,7 +220,7 @@ section.sec-contato
 				//display: inline-block
 				+font-size(32px) 
 
-	.endereco
+	.endereco-main
 		margin-top: 20px
 		p
 			text-align: center
