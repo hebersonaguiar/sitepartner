@@ -1,6 +1,6 @@
 <?php 
 	$style = 'home';
-	include('header.php');
+	include('header-part.php');
 	include('includes/pages/home.php');
 	include('footer.php');
 
