@@ -14,7 +14,7 @@
 		<div class="itc-vet">
 			<div class="itc-vet-align">
 				<a href="#">
-					<img src="images/itc-vet.png" alt="Itc Vertebral">
+					<img src="<?php bloginfo('template_url'); ?>/images/itc-vet.png" alt="Itc Vertebral">
 				</a>
 			</div>
 		</div>

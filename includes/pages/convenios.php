@@ -3,43 +3,43 @@
 		<div class="container">
 			<div class="convenios-itens">
 				<div class="icone-planserv">
-						<img src="images/planserv.png" alt="Planserv">
+						<img src="<?php bloginfo('template_url'); ?>/images/planserv.png" alt="Planserv">
 				</div>
 				<div class="icone-medial">
-						<img src="images/medial-saude.png" alt="Medial">
+						<img src="<?php bloginfo('template_url'); ?>/images/medial-saude.png" alt="Medial">
 				</div>
 				<div class="icone-saude-caixa">
-						<img src="images/saude-caixa.png" alt="Saude Caixa">
+						<img src="<?php bloginfo('template_url'); ?>/images/saude-caixa.png" alt="Saude Caixa">
 				</div>
 				<div class="icone-amil">
-						<img src="images/amil.png" alt="Amil">
+						<img src="<?php bloginfo('template_url'); ?>/images/amil.png" alt="Amil">
 				</div>
 				<div class="icone-asfeb">
-						<img src="images/asfeb.png" alt="Asfeb Saúde">
+						<img src="<?php bloginfo('template_url'); ?>/images/asfeb.png" alt="Asfeb Saúde">
 				</div>
 				<div class="icone-camed">
-						<img src="images/camed.jpg" alt="Camed">
+						<img src="<?php bloginfo('template_url'); ?>/images/camed.jpg" alt="Camed">
 				</div>
 				<div class="icone-cassi">
-						<img src="images/cassi.png" alt="Cassi">
+						<img src="<?php bloginfo('template_url'); ?>/images/cassi.png" alt="Cassi">
 				</div>	
 				<div class="icone-hapvida">
-						<img src="images/hapvida.png" alt="Hapvida Saúde">
+						<img src="<?php bloginfo('template_url'); ?>/images/hapvida.png" alt="Hapvida Saúde">
 				</div>	
 				<div class="icone-unimed">
-						<img src="images/unimed.png" alt="Unimed">
+						<img src="<?php bloginfo('template_url'); ?>/images/unimed.png" alt="Unimed">
 				</div>
 				<div class="icone-casseb-saude">
-						<img src="images/casseb-saude.png" alt="Saúde Casseb">
+						<img src="<?php bloginfo('template_url'); ?>/images/casseb-saude.png" alt="Saúde Casseb">
 				</div>	
 				<div class="icone-postal-saude">
-						<img src="images/postal-saude.png" alt="Postal Saúde">
+						<img src="<?php bloginfo('template_url'); ?>/images/postal-saude.png" alt="Postal Saúde">
 				</div>	
 				<div class="icone-sul-america">
-						<img src="images/sul-america.png" alt="Sul América Saúde">
+						<img src="<?php bloginfo('template_url'); ?>/images/sul-america.png" alt="Sul América Saúde">
 				</div>					
 				<div class="icone-assefaz">
-						<img src="images/assefaz.png" alt="Fundação Assefaz">
+						<img src="<?php bloginfo('template_url'); ?>/images/assefaz.png" alt="Fundação Assefaz">
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 		<div class="itc-vet">
 			<div class="itc-vet-align">
 				<a href="#">
-					<img src="images/itc-vet.png" alt="Itc Vertebral">
+					<img src="<?php bloginfo('template_url'); ?>/images/itc-vet.png" alt="Itc Vertebral">
 				</a>
 			</div>
 		</div> -->

@@ -9,19 +9,19 @@
 			<div class="img-angiologia">
 				<h1>Ortopedia</h1>
 				<div class="barra-white"></div>
-				<a href="#"><img src="images/ortopedia.jpg" alt="Ortopedia Ortomed"></a>						
+				<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/ortopedia.jpg" alt="Ortopedia Ortomed"></a>						
 			</div>
 			<div class="clear"></div>
 			<div class="img-traumatologia">
 				<h1>Traumatologia</h1>
 				<div class="barra-black"></div>
-				<a href="#"><img src="images/traumatologia.jpg" alt="Traumatologia Ortomed"></a>
+				<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/traumatologia.jpg" alt="Traumatologia Ortomed"></a>
 			</div>
 			<div class="clear"></div>
 			<div class="img-reumatologia">
 				<h1>Reumatologia</h1>
 				<div class="barra-white"></div>
-				<a href="#"><img src="images/reumatologia.jpg" alt="Reumatologia Ortomed"></a>
+				<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/reumatologia.jpg" alt="Reumatologia Ortomed"></a>
 			</div>				
 		</div>
 	</section>
@@ -37,7 +37,7 @@
 			<div class="barra"></div>
 		</div>				
 		<div class="rpg-image">
-			<img src="images/rpg.jpg" alt="Reeducação Postural Global">
+			<img src="<?php bloginfo('template_url'); ?>/images/rpg.jpg" alt="Reeducação Postural Global">
 		</div>
 		<div class="clear"></div>
 		<div class="texto-rpg">
@@ -57,16 +57,16 @@
 			<h1>Convênios</h1>
 			<div class="barra"></div>
 			<div class="icone-planserv">
-				<a href="convenios.php"><img src="images/planserv.png" alt="Planserv"></a>
+				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/planserv.png" alt="Planserv"></a>
 			</div>
 			<div class="icone-medial">
-				<a href="convenios.php"><img src="images/medial-saude.png" alt="Medial"></a>
+				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/medial-saude.png" alt="Medial"></a>
 			</div>
 			<div class="icone-saude-caixa">
-				<a href="convenios.php"><img src="images/saude-caixa.png" alt="Saude Caixa"></a>
+				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/saude-caixa.png" alt="Saude Caixa"></a>
 			</div>
 			<div class="icone-amil">
-				<a href="convenios.php"><img src="images/amil.png" alt="Amil"></a>
+				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/amil.png" alt="Amil"></a>
 			</div>				
 		</div>
 	</div>
@@ -78,7 +78,7 @@
 			<div class="funcionamento">
 				<a href="contato.php">
 					<div class="logo-ortomed-contato">
-						<img src="images/ortomed-nome-branco.png" alt="Ortomed Logo">
+						<img src="<?php bloginfo('template_url'); ?>/images/ortomed-nome-branco.png" alt="Ortomed Logo">
 					</div>
 					<div class="horario">
 						<ul>
