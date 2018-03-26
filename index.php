@@ -1,5 +1,5 @@
 <?php 
-	$style = 'home'
+	$style = 'home';
 	include('header.php');
 	include('includes/pages/home.php');
 	include('footer.php');
