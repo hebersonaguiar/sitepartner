@@ -51,7 +51,7 @@
 
 				<div class="aortomed-nome">
 					<div class="slide-aortomed">
-						<?php echo $chamada; ?>
+						<?php the_title(); ?>
 					</div>
 					<div class="barra"></div>				
 				</div>
