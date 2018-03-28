@@ -14,6 +14,17 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
 </head>
 <body>
+	<style>
+		<?php if(get_the_post_thumbnail()) : ?>
+			header{
+				background-image: url('<?php get_the_post_thumbnail_url(); ?>');
+			}
+		<?php else : ?>
+			header{
+				background-image: url('<?php  bloginfo('template_url'); ?>/images/slide-inter.jpg');
+			}
+		<?php endif; ?>
+	</style>
 	<header>
 		<div class="top-bar boxshadow">
 			<div class="container">
