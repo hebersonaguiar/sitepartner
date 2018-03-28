@@ -1,4 +1,7 @@
-<?php 
+<?php
+	/*	
+		template name: A Ortomed 
+	*/ 
 	$style = 'aortomed';
 	$chamada = '<h1>A Ortomed</h1>';
 	include('header-part.php');

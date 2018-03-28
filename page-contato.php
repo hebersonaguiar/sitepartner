@@ -1,4 +1,7 @@
 <?php 
+	/*	
+		template name: Contato
+	*/
 	$style = 'contato';
 	$chamada = '<h1>Contato</h1>';
 	include('header-part.php');
