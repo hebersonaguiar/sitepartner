@@ -1,4 +1,9 @@
 <nav>
+	<?php wp_nav_menu(
+			array('theme_location' => 'header-menu')
+		); ?>
+</nav>
+<!-- <nav>
 	<ul>
 		<li><a href="aortomed.php">A Ortomed</a></li>
 		<li><a href="corpoclinico.php">Corpo Clínico</a></li>
@@ -7,4 +12,4 @@
 		<li><a href="convenios.php">Convênios</a></li>
 		<li><a href="contato.php">Contato</a></li>
 	</ul>
-</nav>
+</nav> -->
