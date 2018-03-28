@@ -3,23 +3,25 @@
 		<div class="especialidades">
 
 			<?php query_posts( 'post_type=especialidades&post_per_page=-1' ); ?>
-			<table>
-			  <tr>
+
 				<?php if(have_posts()): ?> 
 
 					<?php while(have_posts()): the_post(); ?>
-					
-						<td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td>
-
+					<table>
+			  			<tr>
+							<td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td>
+					  </tr>
+					</table>
 					<?php endwhile; ?>
 
 					<?php else : ?>
-
+					<table>
+			  			<tr>
 						<td><i class="fas fa-user-md"></i>   <a href="#">Sem Especialidades Cadastradas...</a></td>
-						
+					  </tr>
+					</table>
 					<?php endif; ?>
-			  </tr>
-			</table>
+
 			<?php wp_reset_query(); ?>
 
 <!-- 
