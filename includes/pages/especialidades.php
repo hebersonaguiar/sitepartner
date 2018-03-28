@@ -1,6 +1,22 @@
 <div class="container">
 	<section class="sec-especialidades">
 		<div class="especialidades">
+
+			<?php query_posts( 'post_type=especialidades' ); ?>
+
+				<?php if(have_posts()): while(have_posts()): the_post(); ?>
+					
+					<?php the_title(); ?>
+
+				<?php endwhile; ?>
+
+				<?php else : ?>
+					Sem Especialidades Cadastradas...
+
+				<?php endif; ?>
+			<?php wp_reset_query(); ?>
+
+
 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
