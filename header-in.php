@@ -14,7 +14,7 @@
 	<style>
 		<?php if(get_the_post_thumbnail()) : ?>
 			header{
-				background-image: url('<?php get_the_post_thumbnail_url(); ?>');
+				background-image: url('<?php the_post_thumbnail_url(); ?>');
 			}
 		<?php else : ?>
 			header{
