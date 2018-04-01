@@ -6,10 +6,9 @@
 					<p><?php the_content(); ?></p>
 				<?php endwhile; ?>
 			<?php endif; ?>
-			<p><?php the_title(); ?></p>
-			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados, permanentemente atualizados com os avanços da medicina.</p>
+			<!-- <p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados, permanentemente atualizados com os avanços da medicina.</p>
 			<p>Atualmente, a Clínica disponibiliza, por meio de equipamentos modernos e de uma equipe de profissionais comprometida com a saúde e bem-estar dos pacientes, serviços como: Densitometria Óssea, Eletroneuromiografia, Fisioterapia e reabilitação, Pronto Atendimento, Radiologia _ Incluindo Raio X Panorâmico de Coluna e Membros Inferiores, Ultrassonografia, Reeducação Postural Global ( R.P.G) e ITC.</p>
-			<p>A Ortomed possui também especialidades nas áreas de Acupuntura, Angiologia, Cirurgia do Joelho, Cirurgia e Traumatologia Bucomaxilofacial e Implantodontia, Clinica Médica, Dermatologia, Medicina do Trabalho, Nutrição, Neurologia e Neurofisiologia, Ortopedia e Traumatologia, Ortopedia Pediátrica, Psicologia, Psiquiatria, Reumatologia.</p>
+			<p>A Ortomed possui também especialidades nas áreas de Acupuntura, Angiologia, Cirurgia do Joelho, Cirurgia e Traumatologia Bucomaxilofacial e Implantodontia, Clinica Médica, Dermatologia, Medicina do Trabalho, Nutrição, Neurologia e Neurofisiologia, Ortopedia e Traumatologia, Ortopedia Pediátrica, Psicologia, Psiquiatria, Reumatologia.</p> -->
 		</div>
 		<div class="cnes">
 			<span>CNES 2488981</span>
