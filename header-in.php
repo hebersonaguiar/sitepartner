@@ -40,7 +40,7 @@
 					</div>
 					<div class="logo">
 						<div class="logo-align">
-							<a href="<?php get_home_url(); ?>">
+							<a href="<?php home_url(); ?>">
 								<img src="<?php bloginfo('template_url'); ?>/images/logo-ortomed.png" alt="Logo Ortomed">
 							</a>
 						</div>

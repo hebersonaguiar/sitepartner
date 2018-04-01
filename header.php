@@ -42,7 +42,7 @@
 				</div>
 				<div class="logo-ortomed-nome">
 					<div class="logo-ortomed-align">
-						<a href="index.php">
+						<a href="<?php home_url(); ?>">
 							<img src="<?php bloginfo('template_url'); ?>/images/ortomed-nome.png"  alt="Logo Ortomed">
 						</a>
 					</div>
