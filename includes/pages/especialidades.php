@@ -2,30 +2,29 @@
 	<section class="sec-especialidades">
 		<div class="especialidades">
 
-			<?php query_posts( 'post_type=especialidades&post_per_page=-1' ); ?>
+<!-- 			<?php query_posts( 'post_type=especialidades&post_per_page=-1' ); ?>
 
 				<?php if(have_posts()): ?> 
 
-					<?php while(have_posts()): the_post(); ?>
-					<!--table>
-			  			<tr-->
-							<!--td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td-->
-						<i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a>
-					<!--/tr>
-					</table-->
-					<?php endwhile; ?>
-
-					<?php else : ?>
-					<table>
+					<?php while(have_posts()): the_post(); ?> -->
+<!-- 					<table>
 			  			<tr>
+							<td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td>
+						</tr>
+					</table> -->
+<!-- 					<?php endwhile; ?>
+
+					<?php else : ?> -->
+<!-- 					<table>
+			  		  <tr>
 						<td><i class="fas fa-user-md"></i>   <a href="#">Sem Especialidades Cadastradas...</a></td>
 					  </tr>
-					</table>
-					<?php endif; ?>
+					</table> -->
+<!-- 					<?php endif; ?>
 
-			<?php wp_reset_query(); ?>
+			<?php wp_reset_query(); ?> -->
 
-<!-- 
+
 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
@@ -59,7 +58,7 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Reumatologia</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">RPG</a></td>
 			  </tr>
-			</table> -->
+			</table>
 		</div>
 <!-- 				<div class="aortomed">
 			<p>A Ortomed atua em Vitoria da Conquista há mais de 20 anos e tem como objetivo prestar serviços, oferecendo um acompanhamento completo da saúde dos pacientes, através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. Atualmente, a Clínica disponibiliza, por meio de equipamentos modernos e de uma equipe de profissionais comprometida com a saúde e bem-estar dos pacientes, serviços como: Densitometria Óssea, Fisioterapia e reabilitação, Pronto Atendimento, Radiologia, Ultrassonografia, Reeducação Postural Global ( R.P.G) e ITC.</p>
