@@ -62,16 +62,16 @@
 			<h1>Convênios</h1>
 			<div class="barra"></div>
 			<div class="icone-planserv">
-				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/planserv.png" alt="Planserv"></a>
+				<a href="convenios"><img src="<?php bloginfo('template_url'); ?>/images/planserv.png" alt="Planserv"></a>
 			</div>
 			<div class="icone-medial">
-				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/medial-saude.png" alt="Medial"></a>
+				<a href="convenios"><img src="<?php bloginfo('template_url'); ?>/images/medial-saude.png" alt="Medial"></a>
 			</div>
 			<div class="icone-saude-caixa">
-				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/saude-caixa.png" alt="Saude Caixa"></a>
+				<a href="convenios"><img src="<?php bloginfo('template_url'); ?>/images/saude-caixa.png" alt="Saude Caixa"></a>
 			</div>
 			<div class="icone-amil">
-				<a href="convenios.php"><img src="<?php bloginfo('template_url'); ?>/images/amil.png" alt="Amil"></a>
+				<a href="convenios"><img src="<?php bloginfo('template_url'); ?>/images/amil.png" alt="Amil"></a>
 			</div>				
 		</div>
 	</div>
