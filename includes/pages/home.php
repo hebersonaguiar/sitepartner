@@ -8,7 +8,7 @@
 					<p><?php the_content(); ?></p>
 				<?php endwhile; ?>
 			<?php endif; ?>
-			<p><strong><a href="aortomed">Saiba Mais</a></strong></p>
+			<strong><a href="aortomed">Saiba Mais</a></strong>
 <!-- 			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados... <strong><a href="aortomed.php">Saiba Mais</a></strong></p> -->
 		</div>
 		<div class="especialidades">
