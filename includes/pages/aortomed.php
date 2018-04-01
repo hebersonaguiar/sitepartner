@@ -2,7 +2,7 @@
 	<section class="sec-ortomed">
 		<div class="aortomed">
 			<?php if(have_posts()): ?>
-				<p><?php get_posts(); ?></p>
+				<p><?php the_content(); ?></p>
 			<?php endif; ?>
 			<p><?php the_title(); ?></p>
 			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados, permanentemente atualizados com os avanços da medicina.</p>
