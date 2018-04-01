@@ -27,28 +27,27 @@
 				'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
 			)
 		);
-	}
-	register_post_type('procedimentos',
-			array(
-				'labels' 			=> array(
-					'name' 			=> __('Procedimentos'),
-					'singular_name' => __('Procedimento')
-					),
-				'public' 		=> true,
-				'has_archive' 	=> true,
-				'menu_icon'		=> 'dashicons-heart',
-				'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
-				'capabilities'  => array(
-						  'edit_post'          => 'edit_book', 
-						  'read_post'          => 'read_book', 
-						  'delete_post'        => 'delete_book', 
-						  'edit_posts'         => 'edit_books', 
-						  'edit_others_posts'  => 'edit_others_books', 
-						  'publish_posts'      => 'publish_books',       
-						  'read_private_posts' => 'read_private_books', 
-						  'create_posts'       => 'edit_books', 
+		register_post_type('procedimentos',
+				array(
+					'labels' 			=> array(
+						'name' 			=> __('Procedimentos'),
+						'singular_name' => __('Procedimento')
 						),
-			)
-		);
+					'public' 		=> true,
+					'has_archive' 	=> true,
+					'menu_icon'		=> 'dashicons-heart',
+					'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
+					'capabilities'  => array(
+							  'edit_post'          => 'edit_book', 
+							  'read_post'          => 'read_book', 
+							  'delete_post'        => 'delete_book', 
+							  'edit_posts'         => 'edit_books', 
+							  'edit_others_posts'  => 'edit_others_books', 
+							  'publish_posts'      => 'publish_books',       
+							  'read_private_posts' => 'read_private_books', 
+							  'create_posts'       => 'edit_books', 
+							),
+				)
+			);
 	}
 	add_action( 'init', 'posts_types' );
