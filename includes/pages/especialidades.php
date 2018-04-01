@@ -7,11 +7,12 @@
 				<?php if(have_posts()): ?> 
 
 					<?php while(have_posts()): the_post(); ?>
-					<table>
-			  			<tr>
-							<td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td>
-					  </tr>
-					</table>
+					<!--table>
+			  			<tr-->
+							<!--td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td-->
+						<i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a>
+					<!--/tr>
+					</table-->
 					<?php endwhile; ?>
 
 					<?php else : ?>
