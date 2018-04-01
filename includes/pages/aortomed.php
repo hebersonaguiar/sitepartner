@@ -1,6 +1,9 @@
 <div class="container">
 	<section class="sec-ortomed">
 		<div class="aortomed">
+			<?php if(have_posts()): ?>
+				<p><?php the_post(); ?></p>
+			<?php endif; ?>
 			<p><?php the_title(); ?></p>
 			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados, permanentemente atualizados com os avanços da medicina.</p>
 			<p>Atualmente, a Clínica disponibiliza, por meio de equipamentos modernos e de uma equipe de profissionais comprometida com a saúde e bem-estar dos pacientes, serviços como: Densitometria Óssea, Eletroneuromiografia, Fisioterapia e reabilitação, Pronto Atendimento, Radiologia _ Incluindo Raio X Panorâmico de Coluna e Membros Inferiores, Ultrassonografia, Reeducação Postural Global ( R.P.G) e ITC.</p>
