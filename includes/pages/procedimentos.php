@@ -2,7 +2,7 @@
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
 			<?php $queried_post = get_post(92); ?>
-				<?php if(get_the_post_thumbnail()) : ?>
+				<?php if(get_the_post_thumbnail(92)) : ?>
 					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
 				<?php else : ?>
 
