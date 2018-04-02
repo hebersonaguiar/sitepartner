@@ -6,20 +6,6 @@
 				the_post();
 				the_content();
 			?>
-			<p>* Seu nome:</p>
-			<input type="text" name="nome" required="true">
-			<p>* Seu melhor email:</p>
-			<input type="text" name="email" required="true">
-			<p>Seu Telefone:</p>
-			<input type="text" name="telefone">
-			<p>* Assunto:</p>
-			<input type="text" name="assunto" required="true">
-			<p>* Sua Menssagem:</p>
-			<!-- <input id="messagem" type="text" name="messagem"> -->
-			<textarea rows="10" cols="55">
-			</textarea>	
-			<br>
-			<input  id="send" type="submit" value="Enviar">
 		</div>
 		<div class="horario">
 			<h1>Horarío de funcionamento</h1>
@@ -41,37 +27,12 @@
 
 			<iframe width="570" height="400" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=Ortomed%20Policl%C3%ADnica%20-%20Avenida%20Bartolomeu%20de%20Gusm%C3%A3o%20-%20Jurema%2C%20Vit%C3%B3ria%20da%20Conquista%20-%20BA%2C%20Brasil+(Ortomed%20Policl%C3%ADnica)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 		</div>
-<!-- 				<div class="cnes">
-			<span>CNES 2488981</span>
-		</div>
-		<div class="cnpj">	
-			<span>CNPJ: 13.768.3200001-38</span>
-		</div>
-		<div class="itc-vet">
-			<div class="itc-vet-align">
-				<a href="#">
-					<img src="images/itc-vet.png" alt="Itc Vertebral">
-				</a>
-			</div>
-		</div> -->
 	</section>
 </div>
 </main>	
 <main class="second-main">
 <div class="container">
 	<section class="sec-dep">
-<!-- 				<div class="dep-nome">
-			<div class="slide-dep">
-				<h1>Depoimentos</h1>
-			</div>
-			<div class="barra"></div>				
-		</div>
-		<div class="depoimentos">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-		</div> -->
 	</section>
 </div>
 </main>
