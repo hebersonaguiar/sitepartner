@@ -1,6 +1,7 @@
 <div class="container">
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
+			<?php $queried_post = get_post(92); ?>
 				<?php if(get_the_post_thumbnail()) : ?>
 					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
 				<?php else : ?>
