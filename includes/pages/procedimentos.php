@@ -2,11 +2,17 @@
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
 			<!-- <?php $queried_post = get_post(92); ?> -->
-				<?php if(get_post_thumbnail_id(92)) : ?>
+<!-- 				<?php if(get_post_thumbnail_id(92)) : ?>
 					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
 				<?php else : ?>
 
-				<?php endif; ?>
+				<?php endif; ?> -->
+				<?php 
+				$target_post_id = '92';
+				if (has_post_thumbnail($target_post_id) ): ?>
+				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
+				<?php echo $image[0]; ?>
+				<?php endif; ?
 			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
 			<div class="text">
 				<?php $queried_post = get_post(92); ?>
