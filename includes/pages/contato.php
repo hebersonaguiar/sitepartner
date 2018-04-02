@@ -12,9 +12,9 @@
 			<input type="text" name="email" required="true">
 			<p>Seu Telefone:</p>
 			<input type="text" name="telefone">
-			<p>Assunto:</p>
-			<input type="text" name="assunto">
-			<p>Sua Menssagem:</p>
+			<p>* Assunto:</p>
+			<input type="text" name="assunto" required="true">
+			<p>* Sua Menssagem:</p>
 			<!-- <input id="messagem" type="text" name="messagem"> -->
 			<textarea rows="10" cols="55">
 			</textarea>	
