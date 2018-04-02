@@ -1,5 +1,9 @@
 <div class="container">
 	<section class="sec-contato">
+		<?php 
+			the_post();
+			the_content();
+		?>
 		<div class="form-cont">
 			<span>Converse com a gente!</span>
 			<p>* Seu nome:</p>
