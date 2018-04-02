@@ -1,7 +1,18 @@
 <div class="container">
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
-			<img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação">
+			<style>
+				<?php if(get_the_post_thumbnail()) : ?>
+					header{
+						background-image: url('<?php the_post_thumbnail_url(); ?>');
+					}
+				<?php else : ?>
+					header{
+						background-image: url('<?php  bloginfo('template_url'); ?>/images/slide-inter.jpg');
+					}
+				<?php endif; ?>
+			</style>
+			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
 			<div class="text">
 				<?php $queried_post = get_post(92); ?>
 				<h1><?php echo $queried_post->post_title; ?></h1>
