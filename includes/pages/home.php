@@ -101,13 +101,16 @@
 			<div class="clear"></div>
 			<div class="contato-box">
 				<h1>Contato</h1>
-				<form>
-					<input type="text" name="nome" placeholder="Nome">
+				<?php $queried_post = get_post(111); ?>
+				<?php  echo $queried_post->post_content; ?>
+				<!-- <form> -->
+
+<!-- 					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
 					<input type="text" name="telefone" placeholder="Telefone">
 					<input class="message" type="text" name="mensagem" placeholder="Mensagem">
-					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar">
-				</form>
+					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar"> -->
+				<!-- </form> -->
 			</div>
 	</div>
 </section>
