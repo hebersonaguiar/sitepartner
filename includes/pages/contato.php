@@ -1,11 +1,11 @@
 <div class="container">
 	<section class="sec-contato">
-		<?php 
-			the_post();
-			the_content();
-		?>
 		<div class="form-cont">
 			<span>Converse com a gente!</span>
+			<?php 
+				the_post();
+				the_content();
+			?>
 			<p>* Seu nome:</p>
 			<input type="text" name="nome" required="true">
 			<p>* Seu melhor email:</p>
