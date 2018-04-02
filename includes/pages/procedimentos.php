@@ -15,8 +15,8 @@
 		<div class="thumb-dois">
 			<img src="<?php bloginfo('template_url'); ?>/images/densitometria-ossea.jpg" alt="Densitometria Óssea">
 			<div class="text">
-				<h1>Densitometria Óssea</h1>
-				<p>A Densitometria Óssea estabeleceu-se como o método mais moderno, aprimorado e inócuo para se medir a densidade mineral óssea e comparado com padrões para idade e sexo.</p>
+				<!-- <h1>Densitometria Óssea</h1>
+				<p>A Densitometria Óssea estabeleceu-se como o método mais moderno, aprimorado e inócuo para se medir a densidade mineral óssea e comparado com padrões para idade e sexo.</p> -->
 				<span>20 de março de 2018, por Fenanda Sales</span>
 				<h2><a href="#">Saiba Mais...</a></h2>
 			</div>
@@ -24,8 +24,8 @@
 		<div class="thumb-tres">
 			<img src="<?php bloginfo('template_url'); ?>/images/eletroneuromiografia.jpg" alt="Eletroneuromiografia">
 			<div class="text">
-				<h1>Eletroneuromiografia</h1>
-				<p>A Eletromiografia é uma técnica de monitoramento da atividade elétrica das membranas excitáveis das células musculares, representando os potencias de ação deflagrados por meio da leitura da tensão elétrica ao longo do tempo.</p>
+				<!-- <h1>Eletroneuromiografia</h1>
+				<p>A Eletromiografia é uma técnica de monitoramento da atividade elétrica das membranas excitáveis das células musculares, representando os potencias de ação deflagrados por meio da leitura da tensão elétrica ao longo do tempo.</p> -->
 				<span>20 de março de 2018, por Fenanda Sales</span>
 				<h2><a href="#">Saiba Mais...</a></h2>
 			</div>
@@ -33,8 +33,8 @@
 		<div class="thumb-quatro">
 			<img src="<?php bloginfo('template_url'); ?>/images/puncao-articular.jpg" alt="Punção Articular">
 			<div class="text">
-				<h1>Punção Articular</h1>
-				<p>A punção articular é um procedimento realizado pelo médico que atua na área do sistema musculoesquelético. É um procedimento simples, realizado em âmbito ambulatorial, para retirada de líquido sinovial...</p>
+				<!-- <h1>Punção Articular</h1>
+				<p>A punção articular é um procedimento realizado pelo médico que atua na área do sistema musculoesquelético. É um procedimento simples, realizado em âmbito ambulatorial, para retirada de líquido sinovial...</p> -->
 				<span>20 de março de 2018, por Fenanda Sales</span>
 				<h2><a href="#">Saiba Mais...</a></h2>
 			</div>
