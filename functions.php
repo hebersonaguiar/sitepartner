@@ -27,17 +27,17 @@
 				'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
 			)
 		);
-		register_post_type('procedimentos',
-				array(
-					'labels' 			=> array(
-						'name' 			=> __('Procedimentos'),
-						'singular_name' => __('Procedimento')
-						),
-					'public' 		=> true,
-					'has_archive' 	=> true,
-					'menu_icon'		=> 'dashicons-heart',
-					'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
-			)
-		);
+		// register_post_type('procedimentos',
+		// 		array(
+		// 			'labels' 			=> array(
+		// 				'name' 			=> __('Procedimentos'),
+		// 				'singular_name' => __('Procedimento')
+		// 				),
+		// 			'public' 		=> true,
+		// 			'has_archive' 	=> true,
+		// 			'menu_icon'		=> 'dashicons-heart',
+		// 			'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
+		// 	)
+		// );
 	}
 	add_action( 'init', 'posts_types' );
