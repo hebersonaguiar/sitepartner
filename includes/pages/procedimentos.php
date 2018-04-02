@@ -1,20 +1,12 @@
 <div class="container">
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
-			<!-- <?php $queried_post = get_post(92); ?> -->
-<!-- 				<?php if(get_post_thumbnail_id(92)) : ?>
-					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
-				<?php else : ?>
-
-				<?php endif; ?> -->
-				<?php 
-				$target_post_id = '92';
-				if (has_post_thumbnail($target_post_id) ): ?>
+			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
+			<?php $target_post_id = '92'; 
+			if (has_post_thumbnail($target_post_id) ): ?>
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
 				<img src="<?php echo $image[0]; ?>" alt="Viscossuplementação">
-				<!-- <?php echo $image[0]; ?> -->
-				<?php endif; ?>
-			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
+			<?php endif; ?>
 			<div class="text">
 				<?php $queried_post = get_post(92); ?>
 				<h1><?php echo $queried_post->post_title; ?></h1>
@@ -26,7 +18,12 @@
 			</div>
 		</div>
 		<div class="thumb-dois">
-			<img src="<?php bloginfo('template_url'); ?>/images/densitometria-ossea.jpg" alt="Densitometria Óssea">
+			<!-- <img src="<?php bloginfo('template_url'); ?>/images/densitometria-ossea.jpg" alt="Densitometria Óssea"> -->
+			<?php $target_post_id = '96'; 
+			if (has_post_thumbnail($target_post_id) ): ?>
+				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
+				<img src="<?php echo $image[0]; ?>" alt="Densitometria Óssea">
+			<?php endif; ?>
 			<div class="text">
 				<?php $queried_post = get_post(96); ?>
 				<h1><?php echo $queried_post->post_title; ?></h1>
@@ -38,7 +35,12 @@
 			</div>
 		</div>
 		<div class="thumb-tres">
-			<img src="<?php bloginfo('template_url'); ?>/images/eletroneuromiografia.jpg" alt="Eletroneuromiografia">
+			<!-- <img src="<?php bloginfo('template_url'); ?>/images/eletroneuromiografia.jpg" alt="Eletroneuromiografia"> -->
+			<?php $target_post_id = '98'; 
+			if (has_post_thumbnail($target_post_id) ): ?>
+				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
+				<img src="<?php echo $image[0]; ?>" alt="Eletroneuromiografia">
+			<?php endif; ?>
 			<div class="text">
 				<?php $queried_post = get_post(98); ?>
 				<h1><?php echo $queried_post->post_title; ?></h1>
@@ -50,7 +52,12 @@
 			</div>
 		</div>
 		<div class="thumb-quatro">
-			<img src="<?php bloginfo('template_url'); ?>/images/puncao-articular.jpg" alt="Punção Articular">
+			<!-- <img src="<?php bloginfo('template_url'); ?>/images/puncao-articular.jpg" alt="Punção Articular"> -->
+			<?php $target_post_id = '100'; 
+			if (has_post_thumbnail($target_post_id) ): ?>
+				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
+				<img src="<?php echo $image[0]; ?>" alt="Punção Articular">
+			<?php endif; ?>
 			<div class="text">
 				<?php $queried_post = get_post(100); ?>
 				<h1><?php echo $queried_post->post_title; ?></h1>
