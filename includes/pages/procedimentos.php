@@ -12,7 +12,7 @@
 				if (has_post_thumbnail($target_post_id) ): ?>
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
 				<?php echo $image[0]; ?>
-				<?php endif; ?
+				<?php endif; ?>
 			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
 			<div class="text">
 				<?php $queried_post = get_post(92); ?>
