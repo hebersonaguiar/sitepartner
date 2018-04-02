@@ -4,12 +4,12 @@
 			<img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação">
 			<div class="text">
 				<?php query_posts( 'post=92' ); ?>
-				<?php if(have_posts()): ?>
-					<?php while(have_posts()): the_post(); ?>
+				<!-- <?php if(have_posts()): ?> -->
+					<!-- <?php while(have_posts()): the_post(); ?> -->
 						<h1><?php the_title() ?></h1>
 						<p><?php the_content(); ?></p>
-					<?php endwhile; ?>
-				<?php endif; ?>
+					<!-- <?php endwhile; ?> -->
+				<!-- <?php endif; ?> -->
 <!-- 				<h1>Viscossuplementação</h1>
 				<p>A viscossuplementação é a reposição das propriedades reológicas do líquido sinovial (LS) através da injeção de ácido hialurônico (AH) de alto peso molecular (PM) dentro do espaço intra-articular.</p>
 				<span>20 de março de 2018, por Fenanda Sales</span> -->
