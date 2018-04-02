@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<header>

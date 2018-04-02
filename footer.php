@@ -51,5 +51,6 @@
 	    // document.documentElement.scrollDuration = 700;
 	}
 	</script>
+	<?php wp_footer(); ?>
 </body>
 </html>
