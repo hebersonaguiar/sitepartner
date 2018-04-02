@@ -1,18 +1,11 @@
 <div class="container">
 	<section class="sec-procedimentos">
 		<div class="thumb-um">
-			<style>
 				<?php if(get_the_post_thumbnail()) : ?>
 					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
-/*					header{
-						background-image: url('<?php the_post_thumbnail_url(); ?>');
-					}*/
 				<?php else : ?>
-					header{
-						background-image: url('<?php  bloginfo('template_url'); ?>/images/slide-inter.jpg');
-					}
+
 				<?php endif; ?>
-			</style>
 			<!-- <img src="<?php bloginfo('template_url'); ?>/images/viscossuplementacao.jpg" alt="Viscossuplementação"> -->
 			<div class="text">
 				<?php $queried_post = get_post(92); ?>
