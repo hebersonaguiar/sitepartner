@@ -3,9 +3,10 @@
 		<div class="thumb-um">
 			<style>
 				<?php if(get_the_post_thumbnail()) : ?>
-					header{
+					<img src="<?php the_post_thumbnail_url(); ?>" alt="Densitometria Óssea">
+/*					header{
 						background-image: url('<?php the_post_thumbnail_url(); ?>');
-					}
+					}*/
 				<?php else : ?>
 					header{
 						background-image: url('<?php  bloginfo('template_url'); ?>/images/slide-inter.jpg');
