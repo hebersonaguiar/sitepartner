@@ -102,7 +102,7 @@
 			<div class="contato-box">
 				<h1>Contato</h1>
 				<?php 
-					the_post();
+					wp_get_single_post(1);
 					the_content();
 				?>
 
