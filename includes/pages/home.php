@@ -5,7 +5,7 @@
 			<div class="barra"></div>
 			<?php if(have_posts()): ?>
 				<?php while(have_posts()): the_post(); ?>
-					<?php the_content(); ?>
+					<!-- <?php the_content(); ?> -->
 				<?php endwhile; ?>
 			<?php endif; ?>
 			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados... <strong><a href="aortomed.php">Saiba Mais</a></strong></p>
