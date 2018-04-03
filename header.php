@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
-	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />
 	<?php wp_head(); ?>
 </head>
 <body>
