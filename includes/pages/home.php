@@ -101,9 +101,11 @@
 			<div class="clear"></div>
 			<div class="contato-box">
 				<h1>Contato</h1>
-				<?php $queried_post = get_post(111); ?>
-				<?php  echo $queried_post->post_content; ?>
-				<!-- <form> -->
+				<?php if(have_posts()): ?>
+					<?php while(have_posts()): the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile; ?>
+				<?php endif; ?>
 
 <!-- 					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
