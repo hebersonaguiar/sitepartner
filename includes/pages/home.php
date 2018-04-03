@@ -102,11 +102,11 @@
 					the_content();
 				?>
 
-<!-- 					<input type="text" name="nome" placeholder="Nome">
+					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
 					<input type="text" name="telefone" placeholder="Telefone">
 					<input class="message" type="text" name="mensagem" placeholder="Mensagem">
-					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar"> -->
+					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar">
 				</form>
 			</div>
 	</div>
