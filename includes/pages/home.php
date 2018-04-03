@@ -97,10 +97,12 @@
 			<div class="contato-box">
 				<h1>Contato</h1>
 				<form>
-				<?php 
-					wp_get_single_post(1);
-					the_content();
-				?>
+				<?php if(have_posts()): ?> 
+					<?php 
+						wp_get_single_post(1);
+						the_content();
+					?>
+				<?php endif; ?>
 
 					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
