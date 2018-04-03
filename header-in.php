@@ -9,6 +9,7 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />	
 	<?php wp_head(); ?>
 </head>
 <body>
