@@ -76,7 +76,7 @@
 	<section class="sec-contato">
 		<div class="container">
 			<div class="funcionamento">
-				<a href="contato.php">
+				<a href="contato">
 					<div class="logo-ortomed-contato">
 						<img src="<?php bloginfo('template_url'); ?>/images/ortomed-nome-branco.png" alt="Ortomed Logo">
 					</div>
