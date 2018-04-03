@@ -3,6 +3,11 @@
 		<div class="aortomed">
 			<h1>A Ortomed</h1>
 			<div class="barra"></div>
+			<?php if(have_posts()): ?>
+				<?php while(have_posts()): the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; ?>
+			<?php endif; ?>
 			<p>A Ortomed atua em Vitória da Conquista há mais de 30 anos em diversas especialidades e tem como objetivo prestar com excelência e qualidade serviços de saúde, sempre oferecendo um acompanhamento individualizado e completo através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. O nosso corpo clinico conta com profissionais experientes e altamente qualificados... <strong><a href="aortomed.php">Saiba Mais</a></strong></p>
 		</div>
 		<div class="especialidades">
@@ -97,18 +102,15 @@
 			<div class="contato-box">
 				<h1>Contato</h1>
 				<form>
-				<?php if(have_posts()): ?> 
-					<?php 
-						wp_get_single_post(1);
-						the_content();
-					?>
-				<?php endif; ?>
-
-					<input type="text" name="nome" placeholder="Nome">
+				<?php 
+					wp_get_single_post(1);
+					the_content();
+				?>
+<!-- 					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
 					<input type="text" name="telefone" placeholder="Telefone">
 					<input class="message" type="text" name="mensagem" placeholder="Mensagem">
-					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar">
+					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar"> -->
 				</form>
 			</div>
 	</div>
