@@ -101,11 +101,7 @@
 			<div class="clear"></div>
 			<div class="contato-box">
 				<h1>Contato</h1>
-				<?php if(have_posts()): ?>
-					<?php while(have_posts()): the_post(); ?>
-						<?php the_content(); ?>
-					<?php endwhile; ?>
-				<?php endif; ?>
+				[contact-form-7 id="111" title="Formulario de Contato Ortomed Home"]
 
 <!-- 					<input type="text" name="nome" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
