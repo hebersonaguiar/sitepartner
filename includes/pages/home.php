@@ -101,6 +101,7 @@
 			<div class="clear"></div>
 			<div class="contato-box">
 				<h1>Contato</h1>
+				<form>
 				<?php 
 					wp_get_single_post(1);
 					the_content();
@@ -111,7 +112,7 @@
 					<input type="text" name="telefone" placeholder="Telefone">
 					<input class="message" type="text" name="mensagem" placeholder="Mensagem">
 					<input class="bt-enviar" type="submit" name="enviar" placeholder="Enviar"> -->
-				<!-- </form> -->
+				</form>
 			</div>
 	</div>
 </section>
