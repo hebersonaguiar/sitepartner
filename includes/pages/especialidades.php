@@ -1,30 +1,6 @@
 <div class="container">
 	<section class="sec-especialidades">
 		<div class="especialidades">
-
-<!-- 			<?php query_posts( 'post_type=especialidades&post_per_page=-1' ); ?>
-
-				<?php if(have_posts()): ?> 
-
-					<?php while(have_posts()): the_post(); ?> -->
-<!-- 					<table>
-			  			<tr>
-							<td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title() ?></a></td>
-						</tr>
-					</table> -->
-<!-- 					<?php endwhile; ?>
-
-					<?php else : ?> -->
-<!-- 					<table>
-			  		  <tr>
-						<td><i class="fas fa-user-md"></i>   <a href="#">Sem Especialidades Cadastradas...</a></td>
-					  </tr>
-					</table> -->
-<!-- 					<?php endif; ?>
-
-			<?php wp_reset_query(); ?> -->
-
-
 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
@@ -60,41 +36,12 @@
 			  </tr>
 			</table>
 		</div>
-<!-- 				<div class="aortomed">
-			<p>A Ortomed atua em Vitoria da Conquista há mais de 20 anos e tem como objetivo prestar serviços, oferecendo um acompanhamento completo da saúde dos pacientes, através de procedimentos seguros e priorizando sempre uma análise minuciosa de cada caso. Atualmente, a Clínica disponibiliza, por meio de equipamentos modernos e de uma equipe de profissionais comprometida com a saúde e bem-estar dos pacientes, serviços como: Densitometria Óssea, Fisioterapia e reabilitação, Pronto Atendimento, Radiologia, Ultrassonografia, Reeducação Postural Global ( R.P.G) e ITC.</p>
-			<p>A Ortomed possui também especialidades nas áreas de Acupuntura, Angiologia, Cirurgia do Joelho, Cirurgia e Traumatologia Bucomaxilofacial e Implantodontia, Medicina do Trabalho, Neurologia, Psicologia, Ortopedia e Traumatologia, Ortopedia Pediátrica.</p>
-		</div>
-		<div class="cnes">
-			<span>CNES 2488981</span>
-		</div>
-		<div class="cnpj">	
-			<span>CNPJ: 13.768.3200001-38</span>
-		</div>
-		<div class="itc-vet">
-			<div class="itc-vet-align">
-				<a href="#">
-					<img src="images/itc-vet.png" alt="Itc Vertebral">
-				</a>
-			</div>
-		</div> -->
 	</section>
 </div>
 </main>	
 <main class="second-main">
 <div class="container">
 	<section class="sec-dep">
-<!-- 				<div class="dep-nome">
-			<div class="slide-dep">
-				<h1>Depoimentos</h1>
-			</div>
-			<div class="barra"></div>				
-		</div>
-		<div class="depoimentos">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-		</div> -->
 	</section>
 </div>
 </main>
