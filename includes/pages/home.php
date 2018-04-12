@@ -31,7 +31,7 @@
    </section>
 </div>
 </main>	
-<main class="second-main">
+<!-- <main class="second-main">
    <div class="container">
       <section class="sec-rpg">
          <div class="rpg">
@@ -52,7 +52,7 @@
             <a href="#" class="botao medio">Saiba Mais</a>
          </div>
       </section>
-   </div>
+   </div> -->
 </main>
 <main class="third-main">
    <section class="sec-convenios">

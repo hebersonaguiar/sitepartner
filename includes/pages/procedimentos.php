@@ -10,7 +10,6 @@
             <?php $queried_post = get_post(92); ?>
             <h1><?php echo $queried_post->post_title; ?></h1>
             <p><?php  echo $queried_post->post_content; ?></p>
-            <span>20 de março de 2018, por Fenanda Sales</span>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
       </div>
@@ -24,7 +23,6 @@
             <?php $queried_post = get_post(96); ?>
             <h1><?php echo $queried_post->post_title; ?></h1>
             <p><?php  echo $queried_post->post_content; ?></p>
-            <span>20 de março de 2018, por Fenanda Sales</span>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
       </div>
@@ -38,7 +36,6 @@
             <?php $queried_post = get_post(98); ?>
             <h1><?php echo $queried_post->post_title; ?></h1>
             <p><?php  echo $queried_post->post_content; ?></p>
-            <span>20 de março de 2018, por Fenanda Sales</span>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
       </div>
@@ -52,7 +49,6 @@
             <?php $queried_post = get_post(100); ?>
             <h1><?php echo $queried_post->post_title; ?></h1>
             <p><?php  echo $queried_post->post_content; ?></p>
-            <span>20 de março de 2018, por Fenanda Sales</span>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
       </div>
