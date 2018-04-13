@@ -72,7 +72,7 @@
             <p><?php  echo $queried_post->post_content; ?></p>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
-      </div>
+      </div>-->
    </section>
 </div>
 </main>	
