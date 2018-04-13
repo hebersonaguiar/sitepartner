@@ -14,12 +14,12 @@
                <h1><?php the_title(); ?></h1>
                <p><?php  the_content(); ?></p>
                <h2><a href="<?php the_permalink(); ?>">Saiba Mais...</a></h2>
-            <?php
-               endwhile;
-               endif;
-               wp_reset_query();
-            ?>
          </div>
+         <?php
+            endwhile;
+            endif;
+            wp_reset_query();
+         ?>
    </div>
 
 
