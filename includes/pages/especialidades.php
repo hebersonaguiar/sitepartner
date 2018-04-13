@@ -1,23 +1,22 @@
 <div class="container">
 	<section class="sec-especialidades">
 		<div class="especialidades">
-			<!-- <table> -->
+			<table>
 				<?php
 					global $more;
 					$more = 0;
-					query_posts('post_type=especialidades&post_per_page=-1');
+					query_posts('post_type=especialidades');
 					if(have_posts()) : while(have_posts()) : the_post();
 				?>
-			  	<!-- <tr> -->
-			   		 <!-- <td><i class="fas fa-user-md"></i> <a href="#"><?php the_title(); ?></a></td> -->
-			   		 <i class="fas fa-user-md"></i> <a href="#"><?php the_title(); ?></a>
-			 	 <!-- </tr> -->
+			  	<tr>
+			   		 <td><i class="fas fa-user-md"></i> <a href="#"><?php the_title(); ?></a></td>
+			 	 </tr>
 			     <?php
 			        endwhile;
 			        endif;
 			        wp_reset_query();
 			     ?>
-			<!-- </table> -->
+			</table>
 <!-- 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
