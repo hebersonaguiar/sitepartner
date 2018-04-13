@@ -2,20 +2,20 @@
 	<section class="sec-especialidades">
 		<div class="especialidades">
 			<table>
-			  	<tr>
 				<?php
 					global $more;
 					$more = 0;
 					query_posts('cat=4');
 					if(have_posts()) : while(have_posts()) : the_post();
 				?>
+			  	<tr>
 			   		 <td><i class="fas fa-user-md"></i> <a href="#"><?php the_title(); ?></a></td>
+			 	 </tr>
 			     <?php
 			        endwhile;
 			        endif;
 			        wp_reset_query();
 			     ?>
-			 	 </tr>
 			</table>
 <!-- 			<table>
 			  <tr>
