@@ -215,7 +215,7 @@ section.sec-procedimentos {
         section.sec-procedimentos [class^="thumb-"] .text h2 a, section.sec-procedimentos [class^="thumb-"] .text h2:link, section.sec-procedimentos [class^="thumb-"] .text h2:visited, section.sec-procedimentos [class^="thumb-"] .text h2:hover, section.sec-procedimentos [class^="thumb-"] .text h2:active {
           text-decoration: none;
           color: #3e4095; }
-    section.sec-procedimentos [class^="thumb-"].thumb-um {
+/*    section.sec-procedimentos [class^="thumb-"].thumb-um {
       -webkit-box-ordinal-group: 2;
       -webkit-order: 1;
       -moz-order: 1;
@@ -238,7 +238,7 @@ section.sec-procedimentos {
       -webkit-order: 4;
       -moz-order: 4;
       -ms-flex-order: 4;
-      order: 4; }
+      order: 4; }*/
 
 section.sec-medias {
   background-color: #ed3237;
