@@ -2,22 +2,23 @@
    <section class="sec-procedimentos">
 
    <div class="thumb-um">
-      <?php
-         global $more;
-         $more = 0;
-         query_posts('cat=48');
-         if(have_posts()) : while(have_posts()) : the_post();
-      ?>
+
       <div class="text">
-         <h1><?php the_title(); ?></h1>
-         <p><?php  the_content(); ?></p>
-         <h2><a href="#"><?php the_permalink(); ?>Saiba Mais...</a></h2>
+         <?php
+            global $more;
+            $more = 0;
+            query_posts('cat=48');
+            if(have_posts()) : while(have_posts()) : the_post();
+         ?>
+            <h1><?php the_title(); ?></h1>
+            <p><?php  the_content(); ?></p>
+            <h2><a href="#"><?php the_permalink(); ?>Saiba Mais...</a></h2>
+         <?php
+            endwhile;
+            endif;
+            wp_reset_query();
+         ?>
       </div>
-      <?php
-         endwhile;
-         endif;
-         wp_reset_query();
-      ?>
    </div>
 
 
