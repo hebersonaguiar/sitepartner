@@ -1,6 +1,25 @@
 <div class="container">
    <section class="sec-procedimentos">
-      <div class="thumb-um">
+
+   <br />
+   <?php<br />
+   global $more;<br />
+   $more = 0;<br />
+   query_posts('cat=48');<br />
+   if(have_posts()) : while(have_posts()) : the_post();<br />
+   ?></p>
+   <p><a href=&amp;quot;<?php the_permalink(); ?>&amp;quot;><?php the_title( '</p>
+   <h3>', </h3>
+   <p>' ); ?></a></p>
+   <p><?php<br />
+   endwhile;<br />
+   endif;<br />
+   wp_reset_query();<br />
+   ?><br />
+
+
+
+     <!--  <div class="thumb-um">
          <?php $target_post_id = '92'; 
             if (has_post_thumbnail($target_post_id) ): ?>
          <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
@@ -51,7 +70,7 @@
             <p><?php  echo $queried_post->post_content; ?></p>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
-      </div>
+      </div> -->
    </section>
 </div>
 </main>	
