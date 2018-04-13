@@ -3,6 +3,22 @@
 		<div class="especialidades">
 			<table>
 			  <tr>
+				<?php
+					global $more;
+					$more = 0;
+					query_posts('cat=4');
+					if(have_posts()) : while(have_posts()) : the_post();
+				?>
+			   		 <td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title(); ?></a></td>
+			     <?php
+			        endwhile;
+			        endif;
+			        wp_reset_query();
+			     ?>
+			  </tr>
+			</table>
+<!-- 			<table>
+			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Cirurgia Vascular</a></td>
 			  </tr>
@@ -34,7 +50,7 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Reumatologia</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">RPG</a></td>
 			  </tr>
-			</table>
+			</table> -->
 		</div>
 	</section>
 </div>
