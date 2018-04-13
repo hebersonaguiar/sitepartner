@@ -2,7 +2,19 @@
    <section class="sec-procedimentos">
 
    <div class="thumb-um">
-
+       <?php
+            global $more;
+            $more = 0;
+            query_posts('cat=4');
+            if(have_posts()) : while(have_posts()) : the_post();
+         ?>
+         <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($target_post_id), 'single-post-thumbnail' ); ?>
+         <img src="<?php echo $image[0]; ?>" alt="Viscossuplementação">
+         <?php
+            endwhile;
+            endif;
+            wp_reset_query();
+         ?>
       <div class="text">
          <?php
             global $more;
@@ -12,7 +24,7 @@
          ?>
             <h1><?php the_title(); ?></h1>
             <p><?php  the_content(); ?></p>
-            <h2><a href="#"><?php the_permalink(); ?>Saiba Mais...</a></h2>
+            <h2><a href="<?php the_permalink(); ?>">Saiba Mais...</a></h2>
          <?php
             endwhile;
             endif;
