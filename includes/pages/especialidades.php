@@ -5,7 +5,7 @@
 				<?php
 					global $more;
 					$more = 0;
-					query_posts('post_type=especialidades');
+					query_posts('cat=5');
 					if(have_posts()) : while(have_posts()) : the_post();
 				?>
 			  	<tr>
