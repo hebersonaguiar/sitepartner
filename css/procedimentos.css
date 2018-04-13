@@ -184,56 +184,58 @@ section.sec-procedimentos {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
-  section.sec-procedimentos [class^="thumb-"] {
+  section.sec-procedimentos [class^="thumb"] {
     float: left;
     margin-top: 50px;
     margin-bottom: 50px; }
-    section.sec-procedimentos [class^="thumb-"] img {
-      float: left;
+    section.sec-procedimentos [class^="thumb"] img {
+      /*float: left;*/
       width: 210px;
       height: 150px;
       margin-right: 90px;
-      margin-top: 22px; }
-    section.sec-procedimentos [class^="thumb-"] .text {
-      color: #3e4095; }
-      section.sec-procedimentos [class^="thumb-"] .text h1 {
+      margin-top: 45px; }
+    section.sec-procedimentos [class^="thumb"] .text {
+      color: #3e4095;
+      margin-left: 250px;
+      margin-top: -150px }
+      section.sec-procedimentos [class^="thumb"] .text h1 {
         font-size: 22px;
         color: #3e4095; }
-      section.sec-procedimentos [class^="thumb-"] .text p {
+      section.sec-procedimentos [class^="thumb"] .text p {
         color: #3e4095;
         font-size: 16px;
         text-align: justify; }
-      section.sec-procedimentos [class^="thumb-"] .text h2 {
+      section.sec-procedimentos [class^="thumb"] .text h2 {
         font-size: 14px;
         border: 1px solid #3e4095;
         padding-left: 9px;
         padding-top: 5px;
         padding-bottom: 5px;
         width: 100px;
-        margin-left: 300px;
+        /*margin-left: 300px;*/
         margin-top: 13px; }
-        section.sec-procedimentos [class^="thumb-"] .text h2 a, section.sec-procedimentos [class^="thumb-"] .text h2:link, section.sec-procedimentos [class^="thumb-"] .text h2:visited, section.sec-procedimentos [class^="thumb-"] .text h2:hover, section.sec-procedimentos [class^="thumb-"] .text h2:active {
+        section.sec-procedimentos [class^="thumb"] .text h2 a, section.sec-procedimentos [class^="thumb"] .text h2:link, section.sec-procedimentos [class^="thumb"] .text h2:visited, section.sec-procedimentos [class^="thumb"] .text h2:hover, section.sec-procedimentos [class^="thumb"] .text h2:active {
           text-decoration: none;
           color: #3e4095; }
-/*    section.sec-procedimentos [class^="thumb-"].thumb-um {
+/*    section.sec-procedimentos [class^="thumb"].thumbum {
       -webkit-box-ordinal-group: 2;
       -webkit-order: 1;
       -moz-order: 1;
       -ms-flex-order: 1;
       order: 1; }
-    section.sec-procedimentos [class^="thumb-"].thumb-dois {
+    section.sec-procedimentos [class^="thumb"].thumbdois {
       -webkit-box-ordinal-group: 3;
       -webkit-order: 2;
       -moz-order: 2;
       -ms-flex-order: 2;
       order: 2; }
-    section.sec-procedimentos [class^="thumb-"].thumb-tres {
+    section.sec-procedimentos [class^="thumb"].thumbtres {
       -webkit-box-ordinal-group: 4;
       -webkit-order: 3;
       -moz-order: 3;
       -ms-flex-order: 3;
       order: 3; }
-    section.sec-procedimentos [class^="thumb-"].thumb-quatro {
+    section.sec-procedimentos [class^="thumb"].thumbquatro {
       -webkit-box-ordinal-group: 5;
       -webkit-order: 4;
       -moz-order: 4;

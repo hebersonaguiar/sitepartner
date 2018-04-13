@@ -1,7 +1,7 @@
 <div class="container">
    <section class="sec-procedimentos">
 
-   <div class="thumb-">
+   <div class="thumb">
        <?php
             global $more;
             $more = 0;
