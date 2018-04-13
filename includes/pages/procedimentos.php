@@ -1,21 +1,17 @@
 <div class="container">
    <section class="sec-procedimentos">
 
-   <br />
-   <?php<br />
-   global $more;<br />
-   $more = 0;<br />
-   query_posts('cat=48');<br />
-   if(have_posts()) : while(have_posts()) : the_post();<br />
+   <?php
+   global $more;
+   $more = 0;
+   query_posts('cat=48');
+   if(have_posts()) : while(have_posts()) : the_post();
    ?></p>
-   <p><a href=&amp;quot;<?php the_permalink(); ?>&amp;quot;><?php the_title( '</p>
-   <h3>', </h3>
-   <p>' ); ?></a></p>
-   <p><?php<br />
-   endwhile;<br />
-   endif;<br />
-   wp_reset_query();<br />
-   ?><br />
+   <p><a href=&amp;quot;<?php the_permalink(); ?>&amp;quot;><?php the_title( '</p><h3>', '</h3>   <p>' ); ?></a></p><p><?php
+   endwhile;
+   endif;
+   wp_reset_query();
+   ?>
 
 
 
