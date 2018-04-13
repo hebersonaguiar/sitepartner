@@ -25,6 +25,7 @@
 				'has_archive' 	=> true,
 				'menu_icon'		=> 'dashicons-heart',
 				'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
+				'taxonomies'    => array( 'category' ),
 			)
 		);
 	}
