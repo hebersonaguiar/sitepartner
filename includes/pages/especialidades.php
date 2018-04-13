@@ -1,7 +1,7 @@
 <div class="container">
 	<section class="sec-especialidades">
 		<div class="especialidades">
-			<table>
+<!-- 			<table>
 				<?php
 					global $more;
 					$more = 0;
@@ -16,8 +16,8 @@
 			        endif;
 			        wp_reset_query();
 			     ?>
-			</table>
-<!-- 			<table>
+			</table> -->
+			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Acupuntura</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Cirurgia Vascular</a></td>
@@ -50,7 +50,7 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Reumatologia</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">RPG</a></td>
 			  </tr>
-			</table> -->
+			</table>
 		</div>
 	</section>
 </div>
