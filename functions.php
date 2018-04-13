@@ -13,22 +13,22 @@
 	add_action( 'init', 'register_menu' );
 
 	//posts types
-	function posts_types(){
-		//especialidades
-		register_post_type('especialidades',
-			array(
-				'labels' 			=> array(
-					'name' 			=> __('Especialidades'),
-					'singular_name' => __('Especialidade')
-					),
-				'public' 		=> true,
-				'has_archive' 	=> true,
-				'menu_icon'		=> 'dashicons-heart',
-				'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
-				'taxonomies'    => array( 'category' ),
-			)
-		);
-	}
+	// function posts_types(){
+	// 	//especialidades
+	// 	register_post_type('especialidades',
+	// 		array(
+	// 			'labels' 			=> array(
+	// 				'name' 			=> __('Especialidades'),
+	// 				'singular_name' => __('Especialidade')
+	// 				),
+	// 			'public' 		=> true,
+	// 			'has_archive' 	=> true,
+	// 			'menu_icon'		=> 'dashicons-heart',
+	// 			'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
+	// 			'taxonomies'    => array( 'category' ),
+	// 		)
+	// 	);
+	// }
 		// register_post_type('procedimentos',
 		// 		array(
 		// 			'labels' 			=> array(
@@ -41,4 +41,4 @@
 		// 			'supports'		=> array('title', 'editor', 'thumbnail', 'page-attributes'),
 		// 	)
 		// );
-	add_action( 'init', 'posts_types' );
+	// add_action( 'init', 'posts_types' );
