@@ -1,18 +1,24 @@
 <div class="container">
    <section class="sec-procedimentos">
 
-   <?php
-   global $more;
-   $more = 0;
-   query_posts('cat=48');
-   if(have_posts()) : while(have_posts()) : the_post();
-   ?></p>
-   <p><a href=&amp;quot;<?php the_permalink(); ?>&amp;quot;><?php the_title( '</p><h3>', '</h3>   <p>' ); ?></a></p><p><?php
-   endwhile;
-   endif;
-   wp_reset_query();
-   ?>
-
+   <div class="thumb-um">
+      <?php
+         global $more;
+         $more = 0;
+         query_posts('cat=48');
+         if(have_posts()) : while(have_posts()) : the_post();
+      ?>
+      <div class="text">
+         <h1><?php the_title(); ?></h1>
+         <p><?php  the_content(); ?></p>
+         <h2><a href="#"><?php the_permalink(); ?>Saiba Mais...</a></h2>
+      </div>
+      <?php
+         endwhile;
+         endif;
+         wp_reset_query();
+      ?>
+   </div>
 
 
      <!--  <div class="thumb-um">
@@ -66,7 +72,7 @@
             <p><?php  echo $queried_post->post_content; ?></p>
             <h2><a href="#">Saiba Mais...</a></h2>
          </div>
-      </div> -->
+      </div>
    </section>
 </div>
 </main>	
