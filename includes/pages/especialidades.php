@@ -6,7 +6,7 @@
 				<?php
 					global $more;
 					$more = 0;
-					query_posts('cat=5');
+					query_posts('cat=5&post_type=especialidades');
 					if(have_posts()) : while(have_posts()) : the_post();
 				?>
 			   		 <td><i class="fas fa-user-md"></i> <a href="#"><?php the_title(); ?></a></td>
