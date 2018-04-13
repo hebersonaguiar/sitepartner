@@ -9,7 +9,7 @@
 					query_posts('cat=4');
 					if(have_posts()) : while(have_posts()) : the_post();
 				?>
-			   		 <td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title(); ?></a></td>
+			   		 <td><i class="fas fa-user-md"></i>   <a href="#"><?php the_title(); ?></a></td><br />
 			     <?php
 			        endwhile;
 			        endif;
