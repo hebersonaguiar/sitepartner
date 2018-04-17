@@ -34,11 +34,11 @@
 		*/
 		foreach((array)get_the_category() as $cat) :
 		 
-		if(file_exists(SINGLE_PATH . '/single-procedimentos' . $cat->slug . '.php'))
-		return SINGLE_PATH . '/single-procedimentos' . $cat->slug . '.php';
+		if(file_exists(SINGLE_PATH . 'single-procedimentos' . $cat->slug . '.php'))
+		return SINGLE_PATH . 'single-procedimentos' . $cat->slug . '.php';
 		 
-		elseif(file_exists(SINGLE_PATH . '/single-procedimentos' . $cat->term_id . '.php'))
-		return SINGLE_PATH . '/single-procedimentos' . $cat->term_id . '.php';
+		elseif(file_exists(SINGLE_PATH . 'single-procedimentos' . $cat->term_id . '.php'))
+		return SINGLE_PATH . 'single-procedimentos' . $cat->term_id . '.php';
 		 
 		endforeach;
 	}
