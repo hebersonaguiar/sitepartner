@@ -31,10 +31,11 @@
    </section>
 </div>
 </main>	
-<!-- <main class="second-main">
+<main class="second-main">
    <div class="container">
       <section class="sec-rpg">
-         <div class="rpg">
+         <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '164' ); } ?>
+<!--          <div class="rpg">
             <h1>Rpg</h1>
             <div class="clear"></div>
             <p>Reeducação Postural Global</p>
@@ -50,9 +51,9 @@
          </div>
          <div class="saibamais">					
             <a href="#" class="botao medio">Saiba Mais</a>
-         </div>
+         </div> -->
       </section>
-   </div> -->
+   </div>
 </main>
 <main class="third-main">
    <section class="sec-convenios">
