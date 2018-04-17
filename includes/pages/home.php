@@ -33,7 +33,7 @@
 </main>	
 <main class="second-main">
    <div class="container">
-      <section class="sec-rpg">
+      <!-- <section class="sec-rpg"> -->
          <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '164' ); } ?>
 <!--          <div class="rpg">
             <h1>Rpg</h1>
@@ -52,7 +52,7 @@
          <div class="saibamais">					
             <a href="#" class="botao medio">Saiba Mais</a>
          </div> -->
-      </section>
+      <!-- </section> -->
    </div>
 </main>
 <main class="third-main">
