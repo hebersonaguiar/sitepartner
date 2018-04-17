@@ -4,6 +4,6 @@
 	   template post type: post, page, product
 	 */
 	$style = 'aortomed';
-	include('../header-in.php');
-	include('../includes/pages/posttemplate.php');
-	include('../footer.php');
+	include('header-in.php');
+	include('ncludes/pages/posttemplate.php');
+	include('footer.php');
