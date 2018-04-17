@@ -31,7 +31,7 @@
    </section>
 </div>
 </main>	
-<main class="second-main">
+<main class="second">
    <div class="container">
       <!-- <section class="sec-rpg"> -->
          <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '164' ); } ?>
