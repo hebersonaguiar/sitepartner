@@ -5,5 +5,5 @@
 	 */
 	$style = 'aortomed';
 	include('header-in.php');
-	include('ncludes/pages/posttemplate.php');
+	include('includes/pages/posttemplate.php');
 	include('footer.php');
