@@ -32,22 +32,19 @@
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Daniele Sales Alves Correia">Neurologia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, 
-			    	Argemiro Correia Santos Júnior, 
-			    	Umberto Paulo de Castro Alves Filho, 
-			    	Valdemario de Magalhaes Fraga">Ortopedia e Traumatologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior, Umberto Paulo de Castro Alves Filho, Valdemario de Magalhaes Fraga">Ortopedia e Traumatologia</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Valdemario de Magalhaes Fraga">Ortopedia Pediátrica</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Umberto Paulo de Castro Alves Filho">Ortopedia de Joelho</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Umberto Paulo de Castro Alves Filho">Ortopedia de Joelho</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Antonio José Pinho Iza Virginia Alves Pinheiro Rafaela Oliveira">Psicologia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Ednea Conceição Correia Luz Ciro Novais Faria e Silva">Psiquiatria</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Ednea Conceição Correia Luz, Ciro Novais Faria e Silva">Psiquiatria</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="">Pilates</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Cassio Lamego Bulos Igor Aloisio Carcez Zamilute">Radiologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Cassio Lamego Bulos, Igor Aloisio Carcez Zamilute">Radiologia</a></td>
 			  </tr>
 				  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Fernanda Sales Correia">Reumatologia</a></td>
