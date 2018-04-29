@@ -28,7 +28,7 @@
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Newiton Monteiro">Fisioterapia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia Argemiro Correia Santos Júnior">Medicina do Trabalho</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior">Medicina do Trabalho</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Daniele Sales Alves Correia">Neurologia</a></td>
