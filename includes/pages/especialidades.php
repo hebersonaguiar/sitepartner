@@ -32,7 +32,10 @@
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Daniele Sales Alves Correia">Neurologia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior, Umberto Paulo de Castro Alves Filho, Valdemario de Magalhaes Fraga">Ortopedia e Traumatologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, 
+			    	Argemiro Correia Santos Júnior, 
+			    	Umberto Paulo de Castro Alves Filho, 
+			    	Valdemario de Magalhaes Fraga">Ortopedia e Traumatologia</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Valdemario de Magalhaes Fraga">Ortopedia Pediátrica</a></td>
