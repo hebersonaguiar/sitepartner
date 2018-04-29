@@ -19,8 +19,8 @@
 			</table> -->
 			<table>
 			  <tr>
-			    <td><i class="fas fa-user-md" data-balloon-pos="right" data-balloon="Vivian Souza Ferraz" ></i>Acupuntura</td>
-			    <td><i class="fas fa-user-md" data-balloon-pos="left" data-balloon="Sifredo Pedral Sampaio Neto Sidineia Santos da Rocha"></i>Cirurgia Vascular</td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#"  data-balloon-pos="right" data-balloon="Vivian Souza Ferraz">Acupuntura</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-pos="left" data-balloon="Sifredo Pedral Sampaio Neto Sidineia Santos da Rocha">Cirurgia Vascular</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Clínica Médica</a></td>
