@@ -24,7 +24,7 @@
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i><a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Tais de lima e fraga"> Buco-maxilofacial e Implantodontia</a></td>
-			    <td><i class="fas fa-user-md"><a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Tais de lima e fraga"> Cirurgia e Traumatologia</a></i></td>
+			    <td><i class="fas fa-user-md"></i><a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Tais de lima e fraga"> Cirurgia e Traumatologia</a></td>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="xlarge" data-balloon-pos="left" data-balloon="Fernanda Sales Correia, Vivian Souza Ferraz">Clínica Médica</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Fabiola Cristina da Silva Fraga">Dermatologia</a></td>
