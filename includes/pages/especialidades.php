@@ -20,7 +20,7 @@
 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#"  data-balloon-length="medium" data-balloon-pos="left" data-balloon="Vivian Souza Ferraz">Acupuntura</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="right" data-balloon="Sifredo Pedral Sampaio Neto Sidineia Santos da Rocha">Cirurgia Vascular</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="right" data-balloon="Sifredo Pedral S. Neto Sidineia Santos da Rocha">Cirurgia Vascular</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#">Clínica Médica</a></td>
