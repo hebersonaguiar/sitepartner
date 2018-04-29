@@ -23,8 +23,8 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Sifredo Pedral S. Neto Sidineia Santos da Rocha">Cirurgia Vascular</a></td>
 			  </tr>
 			  <tr>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Fernanda Sales Correia Vivian Souza Ferraz">Clínica Médica</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Fabiola Cristina da Silva Fraga">Dermatologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="xlarge" data-balloon-pos="left" data-balloon="Fernanda Sales Correia, Vivian Souza Ferraz">Clínica Médica</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Fabiola Cristina da Silva Fraga">Dermatologia</a></td>
 			  </tr>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Newiton Monteiro">Fisioterapia</a></td>
