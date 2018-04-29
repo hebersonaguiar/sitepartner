@@ -20,18 +20,25 @@
 			<table>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#"  data-balloon-length="medium" data-balloon-pos="left" data-balloon="Vivian Souza Ferraz">Acupuntura</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Sifredo Pedral S. Neto Sidineia Santos da Rocha">Cirurgia Vascular</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="Sifredo Pedral S. Neto Sidineia Santos da Rocha">Angiologia/Cirurgia Vascular</a></td>
 			  </tr>
+			  <tr>
+			    <td><i class="fas fa-user-md"></i><a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Tais de lima e fraga">Buco-maxilofacial e Implantodontia</a></td>
+			    <td><i class="fas fa-user-md"><a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Tais de lima e fraga"></a>Cirurgia e Traumatologia</i></td>
 			  <tr>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="xlarge" data-balloon-pos="left" data-balloon="Fernanda Sales Correia, Vivian Souza Ferraz">Clínica Médica</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Fabiola Cristina da Silva Fraga">Dermatologia</a></td>
 			  </tr>
 			  <tr>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Newiton Monteiro">Fisioterapia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior">Medicina do Trabalho</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Lauro jose ribeiro viana">Endrocrinologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Newiton Monteiro">Fisioterapia e Reabilitação</a></td>
 			  </tr>
 			  <tr>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior">Medicina do Trabalho</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Daniele Sales Alves Correia">Neurologia</a></td>
+			  </tr>
+			  <tr>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Aline dos Santos Rocha">Nutrição</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Antonio Ribeiro Correia, Argemiro Correia Santos Júnior, Umberto Paulo de Castro Alves Filho, Valdemario de Magalhaes Fraga">Ortopedia e Traumatologia</a></td>
 			  </tr>
 			  <tr>
@@ -43,12 +50,8 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Ednea Conceição Correia Luz, Ciro Novais Faria e Silva">Psiquiatria</a></td>
 			  </tr>
 			  <tr>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="">Pilates</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Cassio Lamego Bulos, Igor Aloisio Carcez Zamilute">Radiologia</a></td>
-			  </tr>
-				  <tr>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Cassio Lamego Bulos, Igor Aloisio Carcez Zamilute">Radiologia e Ultrassonografia</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Fernanda Sales Correia">Reumatologia</a></td>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="">RPG</a></td>
 			  </tr>
 			</table>
 		</div>
