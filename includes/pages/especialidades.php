@@ -47,7 +47,7 @@
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="right" data-balloon="Cassio Lamego Bulos, Igor Aloisio Carcez Zamilute">Radiologia</a></td>
 			  </tr>
 				  <tr>
-			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="medium" data-balloon-pos="left" data-balloon="Fernanda Sales Correia">Reumatologia</a></td>
+			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="large" data-balloon-pos="left" data-balloon="Fernanda Sales Correia">Reumatologia</a></td>
 			    <td><i class="fas fa-user-md"></i>   <a href="#" data-balloon-length="fit" data-balloon-pos="right" data-balloon="">RPG</a></td>
 			  </tr>
 			</table>
